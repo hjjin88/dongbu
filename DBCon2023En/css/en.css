@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body, button, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, td, textarea, th, ul { font-family:Arial, sans-serif;}
+
+span.br { display:block;}
+.header .nav_box li.oneD { padding:0 30px;}
+.header .nav_box li.oneD>a { font-weight:normal;}
+.header h1 a { width:210px;}
+.footer_wrap .footer { padding-top:55px; padding-bottom:97px;}
+.footer_wrap .footer .f_logo { width:165px;}
+.footer_wrap .footer .family_site { top:45px;}
+.vision_wrap .vision_mission .inner section dl dd { padding:0 7%;}
+.sub_tab.v2 { display:table; width:100%;}
+.sub_tab.v2 a { display:table-cell; padding-left:3px; padding-right:3px; vertical-align:middle;}
+.bis_intro ul li h3 { padding-top:30px; font-size:3.2rem;}
+.bis_intro ul li h3:after { content:""; display:block; width:30px; border-bottom:1px solid #fff; margin:40px 0;}
+.bis_intro ul li a { margin-top:0; position:absolute; bottom:14%;}
+.bis_wrap .bis_field .bis_ico { display:block; margin:0 auto;}
+.bis_detail .detail_info table tr th { width:180px;}
+.ir table.ir_info tr th, .ir table.ir_info tr td { padding-left:1.5%; padding-right:1.5%;}
+.ir_manage .data_wrap .data { padding-left:2.7%; padding-right:2.7%;}
+.ir_manage .data_wrap .data dl dt { margin-bottom:15px;}
+.ir_manage .data_wrap .data dl dd { font-size:2.9rem;}
+.ir_manage .data_wrap .data.first dl dd { top:18%;}
+.financial_down li .down_list a { padding-left:40px; padding-right:40px; background-position:right 35px;}
+.safety-wt-box.v2 dl dt { width:40%;}
+.safety-wt-box.v3 dl dt { width:32%;}
+.sub-full-bggray .img { margin-top:30px;}
+.sub-full-bggray .img.green dl:nth-of-type(1), .sub-full-bggray dl, .sub-full-bggray dl:nth-of-type(1), .sub-full-bggray dl:nth-of-type(2), .sub-full-bggray dl:nth-of-type(3) { position:relative; top:0; left:auto; right:auto; max-width:100% !important; text-align:left; border:0; font-size:1.9rem;}
+.sub-full-bggray dl dt { font-size:1.9rem;}
+.faq-list li a.faq-trigger { padding-right:50px;}
+.board-searcharea.faq_sel { width:640px;}
+.board-searcharea.faq_sel select { padding-right:25px;}
+.brand_wrap dl { padding-left:5%; padding-right:5%;}
+.category_nav a { width:200px;}
+.sub_nav ul li { overflow:hidden;}
+
+@media (max-width: 1600px) {
+	.header .nav_box { margin-left:20%;}
+	.header .nav_box li.oneD { padding:0 25px;}
+	.header .nav_box li.oneD > a { padding:0;}
+	.header .nav_box li .twoD { padding-left:0;}
+}
+
+@media (max-width: 1200px) {
+	.header .nav_box { margin-left:220px;}
+	.header .nav_box li.oneD { padding:0 15px;}
+	.header .nav_box li.oneD>a { font-size:1.8rem;}
+	.header .nav_box li.oneD.child_br>a { padding-top:18px; line-height:1.4; box-sizing:border-box;}
+	.header .nav_box li.oneD.child_br .twoline { display:block;}
+	.header .nav_box li .twoD a { font-size:1.4rem;}
+	.financial_down li .tit { width:23%;}
+	.financial_down li .down_list { width:76%;}
+	.financial_down li .down_list a { padding-left:30px; padding-right:30px;}
+	.sust_safety-sys { width:95%; margin:0 auto;}
+	.main_visual_slide .item .inner .txt dl dt { font-size:5rem;}
+}
+
+@media (max-width: 992px) {
+	.footer_wrap .footer { padding-top:30px; padding-bottom:30px;}
+	.safety-wt-box dl dt { width:100% !important;}
+	.main_visual_slide .item .inner .txt dl { margin-top:290px;}
+	.main_visual_slide .item .inner .txt dl dt strong { display:block;}
+	.main_visual_slide .item .inner .txt .box_wrap { width:90%;}
+}
+
+@media (max-width: 768px) {
+	span.br { display:inline;}
+	.bis_intro ul li h3:after { margin:20px 0;}
+	.ir_manage .data_wrap .data.first dl { display:block; width:auto;}
+	.financial_down li .tit, .financial_down li .down_list { width:100%;}
+	.financial_down li .down_list a { padding-left:0; background-position:85% 37%;}
+	.board-searcharea.faq_sel { width:90%;}
+	.category_nav a { width:26%;}
+	.main_visual_slide .item .inner .txt dl dt { font-size:4.5rem;}
+}
+
+@media (max-width: 576px) {
+	.faq-list li a.faq-trigger { padding-right:25px;}
+	.category_nav a { width:32%;}
+}
+
+@media (max-width: 480px) {
+	.bis_detail .detail_info table tr th { width:125px;}
+	.category_nav a { width:42%;}
+}
+
+@media (max-width: 360px) {
+	.header h1 a { width:180px; background-size:contain;}
+}
