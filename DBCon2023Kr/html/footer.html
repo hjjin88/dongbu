@@ -1,0 +1,53 @@
+<div class="footer">
+    <div class="footer_link">
+        <a href="/etc/privacy.do">개인정보처리방침</a>
+        <a href="/etc/rules.do">법적고지</a>
+        <a href="javascript:" class="modal_button" data-modal="#emailPrivacy">이메일주소무단수집거부</a>
+        <a href="/etc/sitemap.do">사이트맵</a>
+        <a href="/cs/faq.do">고객센터</a>
+        <a href="/sustainability/sinmungoInfo.do">사이버신문고</a>
+    </div>
+    <span class="f_logo">동부건설</span>
+    <address>
+        <p>서울특별시 강남구 테헤란로 137 코레이트타워</p>
+        <p>COPYRIGHT © 2018 DONGBU CORPORATION., ALL RIGHTS RESERVED.</p>
+    </address>
+    <div class="family_site">
+        <button type="button">계열사 바로가기</button>
+        <ul>
+            <li><a href="http://www.dongbueng.co.kr/" target="_blank">동부엔지니어링</a></li>
+            <li><a href="https://www.dongbuntech.co.kr/" target="_blank">동부엔텍</a></li>
+            <li><a href="https://dongbuamc.co.kr/ " target="_blank">동부자산관리</a></li>
+            <li><a href="https://renebleu.com/web/index.php/" target="_blank">Rene Bleu</a></li>
+        </ul>
+    </div>
+</div>
+<a class="go_top on"><img src="../img/ico/go_top.png" alt="맨위로 이동하기"></a>
+
+<script>
+    $(document).ready(function () {
+        /*패밀리사이트*/
+        $('.family_site button').on('click', function () {
+            $(this).toggleClass('on');
+            $('.family_site ul').slideToggle(300);
+        });
+        $('.lang_link button').on('click', function () {
+            $(this).toggleClass('on');
+            $('.lang_link ul').slideToggle(300);
+        });
+
+        //탑버튼
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $('.go_top').addClass('on');
+            } else {
+                $('.go_top').removeClass('on');
+            }
+            $('.go_top').on('click', function () {
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        });
+    })
+</script>
