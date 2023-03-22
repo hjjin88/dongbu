@@ -41,6 +41,25 @@ br.mo{display:none;}
 .btn_down::before{content:'';position:absolute;left:0;top:0;width:20px;height:16px;background:url('../img/ico/ico_filedown.png') no-repeat center;}
 .btn_down::after{content:'';position:absolute;right:0;top:4px;width:11px;height:8px;background:url('../img/ico/ico_arrR_b.png') no-repeat center;}
 .sust_list dl dd span{word-break: keep-all;}
+.faq-list li.content-visible .faq-content{display:block;}
+.faq-list3 li a.faq-trigger{padding:40px 60px 40px 20px;color:#000;font-size:2rem;font-weight:700;}
+.faq-list3 li a.faq-trigger .mo-tit{display:none;margin-bottom:40px;color:#222;font-size:24px;}
+.faq-list3 li a.faq-trigger>div{display:flex;gap:4px;}
+.faq-list3 li a.faq-trigger>div span{flex-shrink:0;}
+.faq-list3 li a.faq-trigger::after, .faq-list3 li a.faq-trigger::before{background:#000;}
+.faq-list3 li.content-visible a.faq-trigger{color:#000;}
+.faq-list3 .faq-content{padding:40px 20px;background:#fbfbfb;font-size:1.6rem;}
+.faq-list3 .faq-content>div{display:flex;gap:4px;}
+.faq-list3 .faq-content>div span{flex-shrink:0;}
+.gov3 .sust_list dl{border: 0; padding-bottom: 64px;}
+.gov3 .sust_list dl dd span{font-weight: 400;}
+.gov3 .faq-list{margin-top: 0;}
+.gov3 .faq-list li dl{padding: 0;}
+.gov3 .faq-tit{line-height: 0; margin-top: 20px;}
+.gov3 .faq-list li a.faq-trigger{padding: 80px 0;}
+.gov3 .faq-trigger::after, .faq-trigger::before{top: 107px;background:#000;}
+.gov3 .content-visible .faq-trigger::before, .content-visible .faq-trigger::after{background:#000;}
+.gov3 .faq-content{padding: 30px 0 0;background: #fff;border: 0;color: #222;}
 
 @media all and (max-width: 990px) {
     .sust_list dl dt br{display:none;}
@@ -54,4 +73,12 @@ br.mo{display:none;}
     .category_nav.type3.sin_ver a{width:calc(100% / 2);height:40px;border-color:#ccc;border-bottom:1px solid #ddd;}
     .category_nav.type3.sin_ver a.on{border:2px solid #999;border-bottom:none;}
     .category_nav.type3.sin_ver a:nth-child(n+2){margin-bottom:10px;}
+
+    .faq-list3{border-top:none;}
+    .faq-list3 li+li{margin-top:40px;}
+    .faq-list3 li a.faq-trigger{padding:0;}
+    .faq-list3 li a.faq-trigger>div{padding-bottom:20px;}
+    .faq-list3 li a.faq-trigger .mo-tit{display:block;}
+    .faq-list3 li a.faq-trigger::after, .faq-list3 li a.faq-trigger::before{top:18px;}
+    .faq-list3 .faq-content{padding:20px 10px;}
 }
