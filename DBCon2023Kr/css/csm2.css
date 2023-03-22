@@ -57,8 +57,8 @@ br.mo{display:none;}
 .gov3 .faq-list li dl{padding: 0;}
 .gov3 .faq-tit{line-height: 0; margin-top: 20px;}
 .gov3 .faq-list li a.faq-trigger{padding: 80px 0;}
-.gov3 .faq-trigger::after, .faq-trigger::before{top: 107px;background:#000;}
-.gov3 .content-visible .faq-trigger::before, .content-visible .faq-trigger::after{background:#000;}
+.gov3 .faq-trigger::after, .gov3 .faq-trigger::before{top: 107px;background:#000;}
+.gov3 .content-visible .faq-trigger::before, .gov3 .content-visible .faq-trigger::after{background:#000;}
 .gov3 .faq-content{padding: 30px 0 0;background: #fff;border: 0;color: #222;}
 
 @media all and (max-width: 990px) {
