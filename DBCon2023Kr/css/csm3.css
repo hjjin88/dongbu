@@ -1,4 +1,39 @@
 /* 진현주 작업 css */
+.esg1 .esg_policy .esg_list dl:last-child{
+    padding: 80px 0;
+    border-bottom: 1px solid #ddd;
+}
+.esg1 .sust_list dl{padding: 109px 0 80px;}
+.esg1 .board_list td:first-child{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 39px;
+}
+.esg1 .more{
+    margin: 19.87px auto;
+position: relative;
+border-bottom: 1px solid;
+width: 71px;
+text-align: left;
+
+font-weight: 700;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: -0.06em;
+color: #222222;
+}
+.esg1 .more::before{content: ''; 
+width: 18px;
+height: 12px;
+position: absolute;
+top: 5px;
+right: 0;
+    background:url('../img/sustainability/new02/arrow_down.png') no-repeat center;}
+
+    /* .view{
+        display: none;
+    } */
 @media all and (max-width: 990px) {        
 
 }
