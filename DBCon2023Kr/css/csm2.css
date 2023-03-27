@@ -1,7 +1,7 @@
 /* common */
-.mgb20 {margin-bottom:20px !important;}
-.mgb40 {margin-bottom:40px !important;}
-.mgb80 {margin-bottom:80px !important;}
+.mb20 {margin-bottom:20px !important;}
+.mb40 {margin-bottom:40px !important;}
+.mb80 {margin-bottom:80px !important;}
 br.pc{display:block;}
 br.mo{display:none;}
 .txtL{text-align:left !important;}
