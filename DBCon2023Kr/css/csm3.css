@@ -1,49 +1,87 @@
 /* 진현주 작업 css */
+.esg1>div{    
+    padding-bottom: 80px;
+    border-bottom: 1px solid #ddd;
+}
+.esg1 .esg_policy .esg_vision{
+    padding-top: 0;
+}
+.esg1 .esg_policy .esg_list dl:last-child {
+    /* padding: 80px 0;
+    border-bottom: 1px solid #ddd; */
+}
+.esg1 .sust_list dl {
+    padding: 29px 0 80px;
+}
+.esg1 .board_list td:first-child {
+    padding: 0;
+}
 
-.esg1 .esg_policy .esg_list dl:last-child{
+.esg1 .board_list .flex {
+    gap: 39px;
+}
+
+.esg1 .dot_list li:before {
+    background: #555;
+}
+
+.esg1 .more {
+    margin: 20px auto 0;
+    position: relative;
+    border-bottom: 1px solid;
+    padding-right: 24px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: -0.06em;
+    color: #222222;
+}
+
+.esg1 .more::before {
+    content: '';
+    width: 18px;
+    height: 12px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background: url('../img/sustainability/new02/arrow_down.png') no-repeat center;
+}
+
+.esg1 .more[aria-expanded="true"]::before {
+    top: 4px;
+    transform: rotate(180deg);
+}
+
+.esg1 .esg_policy .esg_list dl dd .img_box {
+    margin-top: 0;
+}
+.esg1 .esg_con{
     padding: 80px 0;
     border-bottom: 1px solid #ddd;
 }
-.esg1 .sust_list dl{padding: 109px 0 80px;}
-/* .esg1 .board_list td{padding: 19px;} */
-.esg1 .board_list td:first-child{
-    padding: 0;
+.esg1 .esg_con .ct_tit{padding-bottom: 40px;}
+.esg1 .esg_con .esg_td ul{
+padding: 31px 0 0 40px;
 }
-.esg1 .board_list .ff{
-    display: flex;
-    align-items: center;
-    gap: 39px;
+.esg1 .esg_con .esg_td ul li{
+    padding-bottom: 30px;
 }
-.esg1 .dot_list li:before{
-    background: #555;
-}
-.esg1 .more{
-    margin: 20px auto;
-position: relative;
-border-bottom: 1px solid;
-padding-right: 24px;
-text-align: left;
-font-weight: 700;
-font-size: 17px;
-line-height: 130%;
+.esg1 .esg_con .esg_td dl{
+    font-weight: 400;
+    font-size: 15px;
+line-height: 100%;
 letter-spacing: -0.06em;
-color: #222222;
+color: #555555;
 }
-.esg1 .more::before{content: ''; 
-width: 18px;
-height: 12px;
-position: absolute;
-top: 5px;
-right: 0;
-background:url('../img/sustainability/new02/arrow_down.png') no-repeat center;}
-
-        .esg1 .more[aria-expanded="true"]::before{
-            top: 4px;
-            transform: rotate(180deg);
-        }
-@media all and (max-width: 990px) {        
+.esg1 .esg_con .esg_td dt{
+    font-weight: 700;
+}
+.board_list td{
+    vertical-align: top;
 
 }
-@media all and (max-width: 768px) {
 
-}
+@media all and (max-width: 990px) {}
+
+@media all and (max-width: 768px) {}
