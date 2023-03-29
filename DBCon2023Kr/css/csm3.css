@@ -1,94 +1,27 @@
 /* 진현주 작업 css */
-.esg1>div, .esg2>div{    
-    padding: 0 0 80px;
-    border-bottom: 1px solid #ddd;
-}
-.esg1>div:first-child{padding-top: 0;}
-.esg1>div:last-child{border: 0;padding-bottom: 0;}
-.esg1 .ct_tit,.esg2 .ct_tit{padding-bottom: 40px;}
-.esg1 .dot_list li:before {
-    background: #555;
-}
-.esg1 .sec3, .esg1 .sec4, .esg1 .sec5,
-.esg2 .sec2, .esg2 .sec3, .esg2 .sec4{padding-top: 80px;}
-.esg1 .sec1 .esg_vision{
-    padding-top: 0;
-}
-.esg1 .sec2 .sust_list dl {
-    padding: 109px 0 80px;
-}
-.esg1 .sec2 .board_list td:first-child {
-    padding: 0;
-}
+.esg1 .sec1{padding-top:50px !important;}
+.esg1 .sec1 .esg_vision{padding-top:0;}
+.esg1 .sec2 .tit_box {padding:29px 0 40px;}
+.esg1 .sec2 .board_list td:first-child {padding:0;}
+.esg1 .sec2 .board_list .flex {gap:39px;}
+.esg1 .sec2 .more {position:relative;padding-right:24px;margin:20px auto 0;border-bottom:1px solid;color:#222222;font-weight: 700;font-size: 17px;line-height:130%;letter-spacing:-0.06em;text-align: left;}
+.esg1 .sec2 .more::before {content:'';position:absolute;top:5px;right:0;width:18px;height:12px;background:url('../img/sustainability/new02/arrow_down.png') no-repeat center;}
+.esg1 .sec2 .more[aria-expanded="true"]::before{top:4px;transform:rotate(180deg);}
+.esg1.esg_policy .sec3 .esg_list dl:last-child{padding:0;}
+.esg1 .sec3 .esg_list dl dd .img_box {margin-top:0;}
+.esg1 .sec4 .esg_td ul{padding:31px 0 0 40px;}
+.esg1 .sec4 .esg_td ul li{padding-bottom:30px;}
+.esg1 .sec4 .esg_td dl{color:#555555;font-size:15px;font-weight:400;line-height:100%;letter-spacing:-0.06em;}
+.esg1 .sec4 .esg_td dt{font-weight:700;}
+.esg1 .sec4 .board_list td{padding:0;vertical-align:top;}
+.esg2 .sec2 .ct_tit{margin-bottom:80px;}
+.esg2 .sec3 .faq-list4 li:nth-child(2) .board_list tr td:nth-child(2),
+.esg2 .sec3 .faq-list4 li:nth-child(2) .board_list tr td:nth-child(3){padding:20px 10px;}
+.esg3 .sec1 .img_box{margin:80px 0;}
+.esg3 .sec1 .board_list td{padding:5px 20px;}
 
-.esg1 .sec2 .board_list .flex {
-    gap: 39px;
+@media all and (max-width: 990px) {
+    .esg1.esg_policy .esg_list dl:last-child{padding:20px 0 0;}
+    .esg3 .sec1 .img_box{margin:40px 0;}
 }
-.esg1.esg_policy .sec3 .esg_list dl:last-child{padding: 0;}
-.esg1 .sec2 .more {
-    margin: 20px auto 0;
-    position: relative;
-    border-bottom: 1px solid;
-    padding-right: 24px;
-    text-align: left;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 130%;
-    letter-spacing: -0.06em;
-    color: #222222;
-}
-
-.esg1 .sec2 .more::before {
-    content: '';
-    width: 18px;
-    height: 12px;
-    position: absolute;
-    top: 5px;
-    right: 0;
-    background: url('../img/sustainability/new02/arrow_down.png') no-repeat center;
-}
-
-.esg1 .sec2 .more[aria-expanded="true"]::before {
-    top: 4px;
-    transform: rotate(180deg);
-}
-
-.esg1 .sec3 .esg_list dl dd .img_box {
-    margin-top: 0;
-}
-
-.esg1 .sec4 .esg_td ul{
-padding: 31px 0 0 40px;
-}
-.esg1 .sec4 .esg_td ul li{
-    padding-bottom: 30px;
-}
-.esg1 .sec4 .esg_td dl{
-    font-weight: 400;
-    font-size: 15px;
-line-height: 100%;
-letter-spacing: -0.06em;
-color: #555555;
-}
-.esg1 .sec4 .esg_td dt{
-    font-weight: 700;
-}
-.esg1 .sec4 .board_list td{
-    vertical-align: top;
-    padding: 0;
-}
-.esg2 .sec1 .sust_list dl{padding: 0;}
-.esg2 .sec2 .ct_tit{padding-bottom: 80px;}
-.esg2{}
-.esg2{}
-.esg2{}
-.esg2{}
-.esg2{}
-.esg2{}
-.esg2{}
-.esg2{}
-.esg2{}
-
-@media all and (max-width: 990px) {}
-
 @media all and (max-width: 768px) {}
