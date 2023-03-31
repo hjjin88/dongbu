@@ -53,33 +53,105 @@
 .gov3_4 .faq-list3 .faq-content>div{padding: 40px 20px; background: #FBFBFB;}
 .gov3_4 .faq-list.on {display: block;}
 .gov3_4 .faq-list {display: none;}
-.gov3_5 .txt_bar{text-align: left;margin-bottom: 80px;}
+.gov3_5 .txt_bar{text-align: left;}
+.gov4_1 .sust_safety article{padding: 50px 0;}
+.gov4_1 .simg_info .process .step {
+    padding: 237.5px 0 0;
+    /* background-size: unset; */
+}
+
+.gov4_1 .simg_info .process .step:nth-of-type(1){background-image: url(../img/sustainability/new02/simg_process1.png);}
+.gov4_1 .simg_info .process .step:nth-of-type(2){background-image: url(../img/sustainability/new02/simg_process2.png);}
+.gov4_1 .simg_info .process .step:nth-of-type(3){background-image: url(../img/sustainability/new02/simg_process3.png);}
+.gov4_1 .simg_info .process .step:nth-of-type(4){background-image: url(../img/sustainability/new02/simg_process4.png);}
+.gov4_1 .simg_info .process .step::after{
+    width: 26px;
+    height: 42px;
+    background: url(../img/sustainability/new02/simg_process_arr.png);
+}
+.gov4_1 .simg_info .process .step::after:last-child{
+display: none;
+}
+/* .gov4_1 .sust_safety.new div[class^="sec"]:last-of-type{padding: 60px 0 0;} */
+.gov4_1 .simg_info.new .cs_info ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 287px;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+.gov4_1 .simg_info ul li{
+    word-break: keep-all;
+    color: #555;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.gov4_1 .simg_info ul li:last-child{margin-bottom: 0;}
+.gov4_1 .sust_safety article:last-child{padding: 70px 0;}
+.gov4_1 .p_btn_m{
+    width: 240px;
+    height: 45px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    border: 2px solid #00a88e;
+}
+.gov4_1 .con{margin: 60px 0 80px;}
+.gov4_1 .cs_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gov4_1 .simg_info.new .cs_info ul li p:nth-of-type(2){margin: 22px 0 34px;}
+.gov4_1 .simg_info.new .cs_info ul li:last-child:before{border-left: dashed 1px #ddd;}
+@media (max-width: 1200px){
+    .gov4_1 .simg_info .process .step{
+        background-size: 130px;
+        padding: 147.5px 0 0;
+    }
+    .simg_info.new .process .step::after{
+        top: 25%;
+        right: -6%;
+    }
+}
 @media all and (max-width: 990px) {
     .esg1.esg_policy .esg_list dl:last-child{padding:20px 0 0;}
     .esg3 .sec1 .img_box{margin:40px 0;}
     .gov3.gov3_4 .faq-list li a.faq-trigger{padding: 0; margin: 40px 0 0;}
     .gov3.gov3_4 .faq-trigger::after, .gov3.gov3_4 .faq-trigger::before{top: 15px;}
-    .gov3_4 .faq-list3 li a.faq-trigger>div {padding-left: 0;}
-    .gov3_4 .faq-list3 .faq-content>div {padding: 20px 10px;}
+    .gov3_4 .faq-list3 li a.faq-trigger>div {padding-left: 0;word-break: keep-all;}
+    .gov3_4 .faq-list3 .faq-content>div {padding: 20px 10px;word-break: keep-all;}
     .gov3_4 .txt_bar{font-weight: 700;font-size: 2.4rem;padding-bottom: 26px;}
     .txt_bar::before{top:auto; bottom: 0;}
+    .gov3_5 .txt_bar{padding-top: 20px;margin-top: 60px;}
+    .gov3_5 .txt_bar::before{bottom: auto;top: 0;}
 }
 @media all and (max-width: 768px) {
+    /* 모바일 탭 */
+    .category_nav.type3 a{font-size: 1.0rem;border: 1px solid #ddd;}
+    .category_nav.type3 a:hover, .category_nav.type3 a.on{background: #00A88E;color: #fff;border: 1px solid #00A88E;}
+
     .sub_tab.type2 a.on::before{background: #00a88e;}
-    .sust_safety.new .sub_tab{margin-bottom: 40px;}
-    .sust_safety.new .sub_tab a{
-        padding: 12px 0;
-        font-size: 1.2rem;
-        height: 40px;
-    }
+    .sust_safety.new .sub_tab a{padding: 12px 0;font-size: 1.2rem;height: 40px;}
     .sust_safety.new .sub_tab a.on{padding: 11px 0;}
-    .category_nav.type3{margin: 0;}
+    .category_nav.type3{margin: 0;border: 0;}
     .board-searcharea{width: 100%;margin:20px 0 0;}
     .gov3_4 #faq_01 .txt_bar{margin-top: 0;padding-top: 40px;}
     .gov3_4 .txt_bar{margin-top: 0;padding-top: 60px;}
-    .category_nav.type3 a{font-size: 1.0rem;}
-    /* 셀렉트 모바일 퍼센트 확인필요 */
-    .board-searcharea select{width: 107%;font-size: 1.2rem;}
+
+    .board-searcharea{padding-right: 89px;}
+    .board-searcharea select{font-size: 1.2rem;}
     .board-searcharea .btn-search{width: 83px;font-size: 1.5rem;}
     .gov3_4 .faq-list3 li a.faq-trigger>div, .gov3_4 .faq-list3 .faq-content>div{font-size: 1.67rem;}
+    .gov4_1.sinmungo h4{font-size: 2.4rem;padding-bottom: 26px;margin-bottom: 40px;}
+    .gov4_1.sinmungo ol li{font-size: 1.2rem;margin-bottom: 2px;}
+    .gov4_1.sinmungo ol{padding-bottom: 20px;}
+    .gov4_1 .simg_info .process.mobile{margin-bottom: 40px;}
+    .gov4_1 .simg_info ul li{font-size: 1.2rem;}
+    .gov4_1 .simg_info.new .cs_info ul{
+        width: 345px;
+        height: 494px;
+    }
 }
