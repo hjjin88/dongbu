@@ -40,6 +40,7 @@
 .gov2 .sec1 .btn_down{margin-top: 25px;}
 .gov2 .sec1 .faq-list li:last-child .faq-content{padding: 0;border: 0;}
 .gov3 .ct_tit2{margin-bottom: 80px;}
+.gov3 .faq-trigger::after, .gov3 .faq-trigger::before{background: #bbb;}
 .gov3_1 .sust_list dl dt{width: 260px;}
 .gov3_2 .sust_list dl dt{width: 227px;}
 .gov3_3 .txt_bar{padding-bottom:80px;}
@@ -122,6 +123,18 @@ display: none;
 @media all and (max-width: 990px) {
     .esg1.esg_policy .esg_list dl:last-child{padding:20px 0 0;}
     .esg3 .sec1 .img_box{margin:40px 0;}
+    .gov3 .ct_tit2{text-align: left;font-size: 2.4rem;margin-bottom: 40px;}
+    .gov3 .ct_tit2>p{position: relative;text-align: left;font-size: 1.2rem;padding-top: 20px;}
+    .gov3 .ct_tit2>p::before{
+        content: '';
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #19b29b;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
     .gov3.gov3_4 .faq-list li a.faq-trigger{padding: 0; margin: 40px 0 0;}
     .gov3.gov3_4 .faq-trigger::after, .gov3.gov3_4 .faq-trigger::before{top: 15px;}
     .gov3_4 .faq-list3 li a.faq-trigger>div {padding-left: 0;word-break: keep-all;}
@@ -132,11 +145,11 @@ display: none;
     .gov3_5 .txt_bar::before{bottom: auto;top: 0;}
 }
 @media all and (max-width: 768px) {
-    .board-searcharea{width: 100%;margin:20px 0 0;}
+    .board-searcharea{width: 100%;margin-top: 0;}
     .gov3_4 #faq_01 .txt_bar{margin-top: 0;padding-top: 40px;}
     .gov3_4 .txt_bar{margin-top: 0;padding-top: 60px;}
 
-    .board-searcharea{padding-right: 89px;}
+    /* .board-searcharea{padding-right: 89px;} */
     .board-searcharea select{font-size: 1.2rem;}
     .board-searcharea .btn-search{width: 83px;font-size: 1.5rem;}
     .gov3_4 .faq-list3 li a.faq-trigger>div, .gov3_4 .faq-list3 .faq-content>div{font-size: 1.67rem;}
