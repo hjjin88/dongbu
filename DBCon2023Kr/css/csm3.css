@@ -129,14 +129,6 @@ display: none;
     .gov3_5 .txt_bar::before{bottom: auto;top: 0;}
 }
 @media all and (max-width: 768px) {
-    /* 모바일 탭 */
-    .category_nav.type3 a{font-size: 1.0rem;border: 1px solid #ddd;}
-    .category_nav.type3 a:hover, .category_nav.type3 a.on{background: #00A88E;color: #fff;border: 1px solid #00A88E;}
-
-    .sub_tab.type2 a.on::before{background: #00a88e;}
-    .sust_safety.new .sub_tab a{padding: 12px 0;font-size: 1.2rem;height: 40px;}
-    .sust_safety.new .sub_tab a.on{padding: 11px 0;}
-    .category_nav.type3{margin: 0;border: 0;}
     .board-searcharea{width: 100%;margin:20px 0 0;}
     .gov3_4 #faq_01 .txt_bar{margin-top: 0;padding-top: 40px;}
     .gov3_4 .txt_bar{margin-top: 0;padding-top: 60px;}
