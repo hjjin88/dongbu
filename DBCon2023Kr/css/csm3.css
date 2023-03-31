@@ -106,6 +106,9 @@ display: none;
 }
 .gov4_1 .simg_info.new .cs_info ul li p:nth-of-type(2){margin: 22px 0 34px;}
 .gov4_1 .simg_info.new .cs_info ul li:last-child:before{border-left: dashed 1px #ddd;}
+.gov4_2 .simg_team p:nth-of-type(1)::after{
+    margin: 36px auto 27px;
+}
 @media (max-width: 1200px){
     .gov4_1 .simg_info .process .step{
         background-size: 130px;
