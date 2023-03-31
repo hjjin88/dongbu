@@ -251,9 +251,9 @@ $(document).ready(function () {
         $('#faqSelect').change(function(){
             var selectItem = $('#faqSelect option:selected').val();
             var selectTarget = $("#"+selectItem);
-            $('.sust_faq .btn-search').on('click',function(){
-                $('.sust_faq .faq-list li').removeClass('content-visible')
-                $('.sust_faq .faq-content').hide();
+            $('.btn-search').on('click',function(){
+                $('.faq-list li').removeClass('content-visible')
+                $('.faq-content').hide();
                 selectTarget.siblings().removeClass('on');
                 selectTarget.addClass('on');
             });

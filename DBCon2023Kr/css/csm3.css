@@ -1,4 +1,17 @@
 /* 진현주 작업 css */
+/* 공통 */
+.txt_bar{position: relative;padding-top: 18px;}
+.txt_bar::before{
+    content: '';
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #19b29b;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* 1. ESG 경영 */
 .esg1 .sec1{padding-top:50px !important;}
 .esg1 .sec1 .esg_vision{padding-top:0;}
 .esg1 .sec2 .tit_box {padding:29px 0 40px;}
@@ -19,9 +32,54 @@
 .esg2 .sec3 .faq-list4 li:nth-child(2) .board_list tr td:nth-child(3){padding:20px 10px;}
 .esg3 .sec1 .img_box{margin:80px 0;}
 .esg3 .sec1 .board_list td{padding:5px 20px;}
-
+/* 2. Governance */
+.gov1 .sec3.btn_down{margin-top:0;}
+.gov2 .sec1 .tit_box{display: block; margin-bottom: 80px;}
+.gov2 .sec1 .tit_box dd{width: 100%;margin-top: 30px;}
+.gov2 .sec1 .faq-list{margin-top: 80px;}
+.gov2 .sec1 .btn_down{margin-top: 25px;}
+.gov2 .sec1 .faq-list li:last-child .faq-content{padding: 0;border: 0;}
+.gov3 .ct_tit2{margin-bottom: 80px;}
+.gov3_1 .sust_list dl dt{width: 260px;}
+.gov3_2 .sust_list dl dt{width: 227px;}
+.gov3_3 .txt_bar{padding-bottom:80px;}
+.gov3_3 .txt_bar::before{left:50%;top:-0;}
+.gov3.gov3_4 .faq-list li a.faq-trigger{padding: 40px 0;}
+.gov3.gov3_4 .faq-content{padding: 0;}
+.gov3.gov3_4 .faq-list{border: 0;}
+.gov3.gov3_4 .faq-trigger::after, .gov3.gov3_4 .faq-trigger::before{top:50%;}
+.gov3_4 .txt_bar{text-align:left; margin-top: 80px;}
+.gov3_4 .faq-list3 li a.faq-trigger>div{padding-left: 20px;font-size: 1.97rem;}
+.gov3_4 .faq-list3 .faq-content>div{padding: 40px 20px; background: #FBFBFB;}
+.gov3_4 .faq-list.on {display: block;}
+.gov3_4 .faq-list {display: none;}
+.gov3_5 .txt_bar{text-align: left;margin-bottom: 80px;}
 @media all and (max-width: 990px) {
     .esg1.esg_policy .esg_list dl:last-child{padding:20px 0 0;}
     .esg3 .sec1 .img_box{margin:40px 0;}
+    .gov3.gov3_4 .faq-list li a.faq-trigger{padding: 0; margin: 40px 0 0;}
+    .gov3.gov3_4 .faq-trigger::after, .gov3.gov3_4 .faq-trigger::before{top: 15px;}
+    .gov3_4 .faq-list3 li a.faq-trigger>div {padding-left: 0;}
+    .gov3_4 .faq-list3 .faq-content>div {padding: 20px 10px;}
+    .gov3_4 .txt_bar{font-weight: 700;font-size: 2.4rem;padding-bottom: 26px;}
+    .txt_bar::before{top:auto; bottom: 0;}
 }
-@media all and (max-width: 768px) {}
+@media all and (max-width: 768px) {
+    .sub_tab.type2 a.on::before{background: #00a88e;}
+    .sust_safety.new .sub_tab{margin-bottom: 40px;}
+    .sust_safety.new .sub_tab a{
+        padding: 12px 0;
+        font-size: 1.2rem;
+        height: 40px;
+    }
+    .sust_safety.new .sub_tab a.on{padding: 11px 0;}
+    .category_nav.type3{margin: 0;}
+    .board-searcharea{width: 100%;margin:20px 0 0;}
+    .gov3_4 #faq_01 .txt_bar{margin-top: 0;padding-top: 40px;}
+    .gov3_4 .txt_bar{margin-top: 0;padding-top: 60px;}
+    .category_nav.type3 a{font-size: 1.0rem;}
+    /* 셀렉트 모바일 퍼센트 확인필요 */
+    .board-searcharea select{width: 107%;font-size: 1.2rem;}
+    .board-searcharea .btn-search{width: 83px;font-size: 1.5rem;}
+    .gov3_4 .faq-list3 li a.faq-trigger>div, .gov3_4 .faq-list3 .faq-content>div{font-size: 1.67rem;}
+}
