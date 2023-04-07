@@ -187,7 +187,7 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <table class="board_list">
+                                        <table class="board_list more_list">
                                             <colgroup>
                                                 <col width="67px">
                                                 <col width="304px">
@@ -290,11 +290,12 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <!-- <button class="more pc" aria-expanded="false">더보기</button> -->
                                 </div>
                             </li>
                             <li>
                                 <a class="faq-trigger" href="#1">
-                                    <p class="tit-df">주요 이슈별 리스크 및 기회요인 분석</p>
+                                    <p class="tit-df">주요 이슈별 리스크 및 <br class="mo"/>기회요인 분석</p>
                                 </a>
                                 <div class="faq-content">
                                     <div class="scroll_wrap">
@@ -541,5 +542,31 @@
             $('.footer_wrap').load('./footer.html');
         });
     </script>
+    <!-- <script>
+        var btnMore = $('button.more');
+        $(window).resize(function(){ 
+            if (matchMedia("screen and (max-width: 768px)").matches) { 
+                btnMore.css('display','block');
+                btnMore.each(function(){
+                    var $this = $(this);
+                    var $target = $('.more_list');
+                    $target.css('display','none');
+                    $this.off().on('click', function () {
+                    var isExpanded = $(this).attr('aria-expanded');
+                        if (isExpanded == 'false') {
+                            $this.attr('aria-expanded', true).text('접기');
+                            $target.css('display','block');
+                        } else if (isExpanded == 'true') {
+                            $this.attr('aria-expanded', false).text('더보기');
+                            $target.css('display', 'none');
+                        }
+                    });
+                });
+            } else {
+                btnMore.css('display','none');
+                $('.more_list').css('display','block');
+            } 
+        }).resize(); 
+    </script> -->
 </body>
 </html>
