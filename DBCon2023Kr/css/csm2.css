@@ -634,6 +634,7 @@ background:#fff;}
     .sust_safety.new .sub_tab a{padding:12px 0;font-size:1.2rem;width: 50%;}
     .sust_safety.new .sub_tab a.on{padding:12px 0;}
     .sust_safety.new .sub_tab.type2{display: flex;margin:0 auto 40px;}
+    .sust_safety.new .sub_tab.type2 a{width: 50%;}
     .sust_safety.new .sub_tab.type2 a.on{display: flex;justify-content: center;align-items: center;
         /* border-bottom: 2px solid #00a88e; */
         border: 2px solid #00a88e
@@ -681,6 +682,16 @@ background:#fff;}
     .gov3_4 .txt_bar{margin:0 0 40px;padding: 40px 0 26px;font-weight: 700;font-size: 24px;}
     .gov3_4 .faq-list li a.faq-trigger{margin: 0;padding: 0;}
     .gov3_4 .txt_bar::before{bottom: 0;top: auto;}
+    .gov3_4 .faq-list3 li a.faq-trigger>div{width: calc(100% - 45px);}
+    .gov3_4 .faq-list3 li a.faq-trigger>div p{
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .gov3_4 .faq-list3 .faq-content{padding: 0;}
     .gov3_4 .faq-list3 li a.faq-trigger>div span{margin-top: -6px;font-weight: 700;font-size: 24px;line-height: 1;}
     .gov3_4 .faq-list3 li a.faq-trigger>div, .gov3_4 .faq-list3 .faq-content>div, .gov3_4 .faq-list3 li a.faq-trigger::after, .gov3_4 .faq-list3 li a.faq-trigger::before{top: 15px;}
     .gov3_5 .txt_bar{padding-bottom: 40px;font-size: 12px;border-bottom: 1px solid #ddd;}
@@ -744,6 +755,7 @@ background:#fff;}
 } 
 @media (max-width: 576px){
     .faq-trigger::before {right: 8px;}
+    .gov3_4 .faq-list3 li a.faq-trigger>div{width: calc(100% - 25px);}
 }
 @media all and (max-width: 374px) {
     .gov4_4 .simg_report .btn_box{width: 100%;}
