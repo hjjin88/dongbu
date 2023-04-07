@@ -315,6 +315,7 @@ background:#fff;}
 .env1 .sust_system .certification{gap:54px;}
 .env1 .sust_system .certification > div{margin-top:0;}
 .env1 .sec1 .tit_box{margin-top:80px;}
+.env1 .sec1 .list_dot li{margin-bottom: 5px;}
 .env1 .sec2 .step_sub_txt{margin-top:30px;}
 .env1 .sec3 .ct_tit2{line-height:1.6;}
 .env1 .sec3 .img_box{position:relative;padding: 119px 0 122px;}
@@ -365,6 +366,8 @@ background:#fff;}
 .env3 .board_list .in-table li+li{margin-top: -1px;}
 .env3 .board_list td small{font-size:7px;}
 
+.env1 .sec5.full{width: 100vw;}
+.env1 .sec5 .certi_box .img_box{margin: 0 auto;}
 /* 4. Social */
 .soc1 .sec1 .img_box{margin-bottom:80px;}
 .soc1 .sec3 .step_sub_txt.top{margin:0 0 100px;}
@@ -480,13 +483,13 @@ background:#fff;}
     .tit_box dd .ceo_sign{margin-top:30px;}
     .goal{width:100%;padding:15px;}
     .goal ul{padding:35px 0;}
-    .goal ul li{font-size:2.2rem;letter-spacing: -.6px;}
+    .goal ul li{font-size:19px;letter-spacing: -.6px;}
     
-    .step_list{margin-top:40px;gap:37px;}
+    /* .step_list{margin-top:40px;gap:37px;}
     .step_list > div{width:100%;min-height:auto;padding:0;background:#fff;}
     .step_list > div::before{display:none;}
     .step_list .list_dot{margin-top:24px;}
-    .step_sub_txt p{word-break:keep-all;}
+    .step_sub_txt p{word-break:keep-all;} */
 
     .certi_box{margin:40px auto 0;gap:50px;flex-direction:column;padding:0;}
     .certi_box + .certi_box{margin-top:40px;padding-top:60px;border-top:1px solid #ddd;}
@@ -542,17 +545,16 @@ background:#fff;}
     .env1 .sec3 .img_box{padding:0;}
     .env1 .sec3 .system_list{position:relative;display:flex;flex-direction:column;gap:40px;margin-top:40px;}
     .env1 .sec3 .system_list dl{position:relative;padding-top:20px;}
-    .env1 .sec3 .system_list dl .tit_mo{display:block;}
+    .env1 .sec3 .system_list dl .tit_mo{display:block;font-size: 24px;}
     .env1 .sec3 .system_list dl .tit_mo::before{content:'';position:absolute;left:0;bottom:0;width:25px;height:2px;background:#19B29B;}
     .env1 .sec3 .system_list dl.list_01{left:0;transform:translate(0);padding-top: 0;}
     .env1 .sec3 .system_list dl.list_02{left:0;bottom:0;text-align:left;}
     .env1 .sec3 .system_list dl.list_03{right:0;bottom:0;}
-    .env1 .sec3 .system_list dl dt{font-size:15px;}
     .env1 .sec3 .system_list dl dd{margin-top:20px;}
     .env1 .sec3 .system_list .list_dot li::before{background:#222;}
     .env1 .sec3 .system_list .list_dot.right li{padding-left:9px;padding-right:0;}
     .env1 .sec3 .system_list .list_dot.right li:after{right:auto;left:0;}
-    .env1 .sec4 .process_list{margin-top:28px;flex-wrap:wrap;gap:26px;row-gap:38px;}
+    .env1 .sec4 .process_list{gap: 38px 26px;;margin-top:28px;}
     .env1 .sec4 .process_list dl{width:calc(50% - 13px);}
     .env1 .sec4 .process_list dl+dl{margin-left:0;}
     .env1 .sec4 .process_list dl+dl::before{display:none;}
@@ -656,6 +658,12 @@ background:#fff;}
     .category_nav.type3.sin_ver a.on{border:2px solid #999;border-bottom:none;}
     .category_nav.type3.sin_ver a:nth-child(n+2){margin-bottom:10px;}    
     
+    .step_list{margin-top:40px;gap:37px;}
+    .step_list > div{width:100%;min-height:auto;padding:0;background:#fff;}
+    .step_list > div::before{display:none;}
+    .step_list .list_dot{margin-top:24px;}
+    .step_sub_txt p{word-break:keep-all;}
+
     /* 1. ESG 경영 */
     .esg1 .sec1 .esg_list dl dd p br:first-child, .esg1 .sec2 .board_list td:first-child br.mo{display: block;}
     .esg1 .esg_list dl:last-child{padding-top:50px;}
@@ -728,10 +736,12 @@ background:#fff;}
     .gov5 .tit_box dd{padding-top: 40px;}
 
     /* 3. Environmental */
-    .env1 .sec1 .tit_box dd .text,.env1 .sec1 .list_dot li, .env1 .sec2 .step_list .list_dot li, .env1 .sec2 .step_sub_txt p{margin-bottom: 20px;}
+    .env1 .sec1 .tit_box dd .text, .env1 .sec2 .step_sub_txt p{margin-bottom: 20px;}
+    .env1 .sec1 .list_dot li, .env1 .sec2 .step_list .list_dot li{margin-bottom: 0px;}
     .env1 .sec3 .system_list li, .env1 .sec4 .process_list dl dd{font-size: 12px;}
     .env1 .sec1 .tit_box dd .ceo_sign strong, .env1 .sec2 .step_list dl dd{font-size: 15px;}
     .env1 .sec3 .system_list dl{padding-top: 0;}
+    .env1 .sec3 .system_list dl dt{font-size:15px;}
     .env2 .sec3 .img_list{display:block;}
     .env2 .sec3 .img_list li{flex-direction:column;width:100%;border:none;border-top:1px solid #ddd;}
     .env2 .sec3 .img_list li.left .txt_box{order:0;}
@@ -743,7 +753,7 @@ background:#fff;}
     .env3 .sec2 .img_list li{width:calc(50% - 15px);}
     .env3 .sec3 .img_list{margin-top:40px;}
     .env3 .sec4 .txt_info.bot{font-size: 10px;}
-    .env1 .sec4 .process_list{padding-bottom: 20px;}
+    .env1 .sec4 .process_list{flex-wrap: wrap;padding-bottom: 20px;}
 
     /* 4. Social */
     .soc1 .sec7 .rule_box ul{flex-wrap:wrap;justify-content:flex-start;}
