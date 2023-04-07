@@ -188,7 +188,7 @@
     .gov2 .sec1 .tit_box dd{margin-top: 26px;}
     .gov2 .sec1 .faq-list{margin-top: 40px;}
     .gov2 .sec1 .btn_down{margin-top: 20px;}
-    .gov2 .sec1 .faq-list4 li.content-visible a.faq-trigger .tit-df, .gov2 .sec1 .tit_box dt{margin-bottom: 0;font-size: 24px;}
+    .gov2 .sec1 .faq-list4 li.content-visible a.faq-trigger .tit-df, .gov2 .sec1 .tit_box dt{margin-bottom: 0;}
     .gov2 .sec1 .tit_box dd .text{font-size: 12px;}
     .gov3 .ct_tit2{text-align: left;font-size: 24px;margin-bottom: 40px;}
     .gov3 .ct_tit2>p{position: relative;text-align: left;font-size: 12px;padding-top: 20px;margin-top: 26px;word-break: keep-all;}
@@ -272,6 +272,7 @@
     .esg1 .sec2 .board_list td:last-child{padding-left: 10px;}
     /* .esg2 .sec3 .scroll_wrap.col_2{flex-direction: column;} */
     /* .esg2 .sec3 .scroll_wrap.col_2>table+table{border-left:0;} */
+    .gov2 .sec1 .faq-list4 li.content-visible a.faq-trigger .tit-df, .gov2 .sec1 .tit_box dt{font-size: 24px;}
     .gov3_3 .txt_bar{
         padding: 20px 0 60px;
         text-align: left;
