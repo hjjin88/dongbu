@@ -409,7 +409,7 @@ background:#fff;}
 .soc1 .sec8 .img_box{display:flex;align-items:center;justify-content:flex-end;gap:40px;min-width:880px;margin:20px 0 0;padding:40px 35px;border-top:1px solid #ddd;background:#f8f8f8;}
 
 .soc2 .ct_tit2>p{word-break:keep-all;}
-.soc2 .tit_box strong{display:block;margin-bottom:20px;}
+.soc2 .tit_box strong, .soc6 .tit_box strong{display:block;margin-bottom:20px;font-size: 2rem;}
 .soc2 .tit_box .text+.text{margin-top:16px;}
 .soc2 .sec1 .img_box{margin-top:97px;}
 .soc2 .sec1 .list_desc{display:none;margin-top:60px;text-align:left;}
@@ -484,7 +484,51 @@ background:#fff;}
     letter-spacing: -0.9px;
     color: #555;
 }
-.soc6 .sec1 .tit_box dd>img, .soc6 .sec1 .tit_box dd .text{margin-bottom: 50px;}
+.soc6 .tit_box dd .con{
+    padding-top: 80px; margin-top: 80px;
+    border-top: 1px solid #ddd;
+}
+.soc6 .tit_box dd .con:first-child{padding-top: 0; margin-top: 0;border: 0;}
+.soc6 .full{width: 100vw !important;argin-left: -170px !important;padding: 46px 0 80px;}
+.soc6 .full + .full{padding-top: 0;}
+.soc6 .full .bd_top{
+    max-width: 1170px;
+    margin: 0 auto;
+    border-top: 1px solid #ddd;
+    padding-top: 46px;
+}
+.soc6 .sec1 .tit_box dd .text{margin: 50px auto;}
+.soc6 .sec2 h4.sub_tit span{margin-top: 34px;}
+.soc6 .sec2 .hire_info{padding: 80px 0;}
+.soc6 .sec2 .hire_info img{margin-top: 64px;}
+.soc6 .sec2 .img_box{margin-top: 80px;}
+
+.step_list.ty2{
+    gap: 0 63px;
+}
+.step_list.ty2 dl dt{margin-bottom: 12px;font-weight: 400;}
+.step_list.ty2 dl dd {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 700;
+}
+.step_list.ty2 dl dd strong{margin-bottom: 27px;}
+.step_list.ty2 dl dd:before{display: none;}
+.step_list.ty2 ul li{font-size: 1.5rem;}
+.step_list.ty2 > div{min-height: 235px;padding: 18px 0;background: #fff;border-top: 2px solid;}
+.step_list.ty2 > div::before{display: none;}
+.step_list.ty2 .step_01{border-color: #33B9A5;}
+.step_list.ty2 .step_02{border-color: #32AAC5;}
+.step_list.ty2 .step_03{border-color: #509EE6;}
+.step_list.ty2 .step_04{border-color: #5082E6;}
+.step_list.ty2 .step_01 dl dt, .step_list.ty2 .step_01 dl dd strong{color: #33B9A5;}
+.step_list.ty2 .step_02 dl dt, .step_list.ty2 .step_02 dl dd strong{color: #32AAC5;}
+.step_list.ty2 .step_03 dl dt, .step_list.ty2 .step_03 dl dd strong{color: #509EE6;}
+.step_list.ty2 .step_04 dl dt, .step_list.ty2 .step_04 dl dd strong{color: #5082E6;}
+
+
+
 /* 테스트 */
 .esg3 .sec1 thead tr th:first-child, .esg3 .sec1 tbody tr td:first-child{width: 300px;}
 
@@ -714,7 +758,8 @@ background:#fff;}
     .step_list .list_dot{margin-top:20px;}
     .step_sub_txt p{word-break:keep-all; font-size: 15px;}
     .certi_box dl dt{padding: 20px 0 18px;}
-
+    .txt_info.bot{font-size: 10px;}
+    
     /* 1. ESG 경영 */
     .esg1 .sec1 .esg_list dl dd p br:first-child, .esg1 .sec2 .board_list td:first-child br.mo{display: block;}
     .esg1 .esg_list dl:last-child{padding-top:50px;}
@@ -782,7 +827,6 @@ background:#fff;}
     .gov5 .con{margin-top: 60px;}
     .gov5 .board_tit{font-size: 15px;}
     .gov5 .sec3 .con{margin-top: 40px;}
-    .gov5 .txt_info.bot{font-size: 10px;}
     .gov5 .simg_info ul li{margin: 16px 0 0;font-size: 10px;}
     .gov5 .tit_box dd{padding-top: 40px;}
 
