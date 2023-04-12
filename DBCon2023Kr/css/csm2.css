@@ -749,10 +749,11 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     }
     .category_nav.type3{ display: flex;}
     .category_nav.type3 a ~ a{border-left: 0;
-        border-right: 1px solid transparent;}
-
-
-
+        /* border-right: 1px solid transparent; */
+    }
+        .category_nav.type3 a + a{border-right: 0;}
+        .category_nav.type3 a:last-child.on{border-left: 0;}
+        .category_nav.type3 a:first-child.on{border-left:1px solid #ddd;}
     .step_list{margin-top:40px;gap:37px;}
     .step_list > div{width:100%;min-height:auto;padding:0;background:#fff;}
     .step_list > div::before{display:none;}
