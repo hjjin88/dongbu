@@ -150,8 +150,8 @@ $(document).ready(function () {
         $(this).on("click", function (e) {
             e.preventDefault();
             var currentClick = $(this).attr('href');
-            $(this).addClass('on');
-            $(this).siblings().removeClass('on')
+            $(this).addClass('on').css("border-top", "none");
+            $(this).siblings().removeClass('on').css("border-top", "2px solid #00A88E");
             $(this).parent().parent().find('.sub_tab_content > div').removeClass('on');
             $(currentClick).addClass('on');
         });
