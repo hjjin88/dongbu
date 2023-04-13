@@ -800,6 +800,15 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
         font-weight: 700;
         font-size: 15px;
     }
+    .esg2 .sec3 .ui_tab tbody tr:first-child{
+        height: 101px;
+    }
+    .esg2 .sec3 .ui_tab tbody tr:nth-child(2){
+        height: 191px;
+    }
+    .esg2 .sec3 .ui_tab tbody tr:last-child{
+        height: 220px;
+    }
     /* 2. Governance */
     .gov4_1 .simg_info ul li, .gov4_3 ul li dl dd, .gov4_3 ul li p, .gov4_1 .p_btn_m, .gov5 .tit_box dd .text{font-size: 12px;}
     .gov2 .sec1 .faq-list4 li a [class^="tit"][class*="-df"], .gov3_5 .board_tit{font-size: 24px;}
