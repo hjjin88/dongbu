@@ -100,11 +100,11 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .scroll_wrap.col_2>table{width:50%;min-width:584px;}
 .scroll_wrap.col_2>table+table{border-left:2px solid #333;}
 .board_list{width:100%;border-top:2px solid #333;}
-.board_list th{padding:20px 0;border-right:1px solid #ddd;border-bottom:1px solid #ddd;background:#F8F8F8;color:#222;font-size:1.5rem;font-weight:700;letter-spacing:-0.06em;text-align:center;}
+.board_list th{padding:20px 0;border-right:1px solid #ddd;border-bottom:1px solid #ddd;background:#F8F8F8;color:#222;font-size:15px;font-weight:700;letter-spacing:-0.06em;text-align:center;}
 .board_list tr th:last-child{border-right:none;}
 .board_list tr th.line,
 .board_list tr td.line {border-right:1px solid #ddd;}
-.board_list td{padding:20px;border-bottom:1px solid #ddd;border-right:1px solid #ddd;background:#fff;color:#555;font-size:1.5rem;letter-spacing:-0.06em;word-break:keep-all;text-align:center;}
+.board_list td{padding:20px;border-bottom:1px solid #ddd;border-right:1px solid #ddd;background:#fff;color:#555;font-size:15px;letter-spacing:-0.06em;word-break:keep-all;text-align:center;}
 .board_list td:last-child{border-right:none;}
 .board_list td.txtL{text-align:left;}
 .board_list td ul li{text-align:left;}
@@ -239,6 +239,11 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .esg2 .sec3 .faq-list4 li:nth-child(2) .board_list tr td:nth-child(3){padding:20px 10px;}
 .esg3 .sec1 .img_box{margin:80px 0;}
 .esg3 .sec1 .board_list td{padding:5px 20px;}
+
+
+/* .esg2 .sec3 .faq-list4 li:last-child .faq-content{display: block;} */
+.esg2 .sec3 .faq-list4 li.content-visible .faq-content.mobile{display: none !important;}
+
 
 /* 2. Governance */
 .gov1 .sec3.btn_down{margin-top:0;}
@@ -570,6 +575,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .esg2 .sec3 .faq-list4 .faq-content{padding: 0 0 60px !important;}
     .esg3 .sec1 .img_box{margin:40px 0 60px;}
 
+
     /* 2. Governance */
     .gov2 .sec1 .faq-list4 li a.faq-trigger{padding: 60px 0 40px;}
     .gov2 .sec1 .tit_box{margin-bottom: 40px;}
@@ -729,7 +735,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .category_nav.type3 br.mo{display: block;}
     .category_nav.type3{margin:0 0 60px;border:0;}
     .category_nav.type3.gov3_4{margin:0 0 20px;}
-    .category_nav.type3 a{font-size: 1rem;border:1px solid #ddd;border-right:none;}
+    .category_nav.type3 a{font-size: 12px;border:1px solid #ddd;border-right:none;}
     .category_nav.type3 a:last-child{border-right:1px solid #ddd;}
     /* .category_nav.type3 a.on, .category_nav.type3 a:hover{background:#00A88E;color:#fff;}     */
     .category_nav.type3.sin_ver{flex-wrap:wrap;}
@@ -748,12 +754,12 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 
     }
     .category_nav.type3{ display: flex;}
-    .category_nav.type3 a ~ a{border-left: 0;
-        /* border-right: 1px solid transparent; */
-    }
-        .category_nav.type3 a + a{border-right: 0;}
-        .category_nav.type3 a:last-child.on{border-left: 0;}
-        .category_nav.type3 a:first-child.on{border-left:1px solid #ddd;}
+    .category_nav.type3 a ~ a{border-left: 0;}
+    .category_nav.type3 a + a{border-right: 0;}
+    .category_nav.type3 a:last-child.on{border-left: 0;}
+    .category_nav.type3 a:first-child.on{border-left:1px solid #ddd;}
+
+
     .step_list{margin-top:40px;gap:37px;}
     .step_list > div{width:100%;min-height:auto;padding:0;background:#fff;}
     .step_list > div::before{display:none;}
@@ -779,6 +785,32 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .esg1 .sec2 .board_list td ul.list_dot li::before{display: none;}
     .esg1 .sec2 .board_list td ul.list_dot li{text-align: center}
     .esg1 .sec2 .board_list td:last-child{padding-left: 10px;}
+
+    /* .esg2 .sec3 .faq-list4 li:last-child .faq-content{display: block !important;} */
+    .esg2 .sec3 .faq-list4 .list_sel a [class^="tit"]::after{display: none !important;}
+    /* .esg2 .sec3 .faq-list4 li a.faq-trigger{    padding: 60px 0 40px !important;} */
+    /* .esg2 .sec3 .faq-list4 li.content-visible:last-child a.faq-trigger{    padding: 60px 0 40px !important;;} */
+    /* .esg2 .sec3 .faq-list4 li a:last-child [class^="tit"]::after{display: none !important;} */
+    /* .esg2 .sec3 .faq-list4 li a [class^="tit"]::after */
+    /* .faq-list4 li.content-visible a.faq-trigger:last-child .tit-df{margin-bottom: 0 !important;} */
+    /* .esg2 .sec3 .faq-list4 li.content-visible a.faq-trigger{padding: 60px 0 21px !important;} */
+
+    .esg2 .sec3 .faq-list4 .list_sel .faq-content.pc{display: none!important;}
+    .esg2 .sec3 .faq-list4 .list_sel .faq-content.mobile, .esg2 .sec3 .faq-list4 .list_sel.content-visible .faq-content.mobile{display: block!important;}
+    .esg2 .sec3 .faq-list4 .list_sel a.faq-trigger{pointer-events: none;border-bottom: none !important;}
+    .esg2 .sec3 .faq-list4 .list_sel select{
+        height: 45px;
+        padding: 11px 16px;
+        font-weight: 700;
+        font-size: 18px;
+    }.faq-content.mobile
+    .esg2 .sec3 .faq-list4 .list_sel .faq-content.mobile .board_list td:first-child{font-weight: 700;}
+    /* .esg2 .sec3 .faq-list4 .list_sel .faq-content.mobile .layer{display: none;}
+    .esg2 .sec3 .faq-list4 .list_sel .faq-content.mobile .layer.on{display: block;}*/
+    .esg2 .sec3 .faq-list4 .list_sel .faq-content.mobile .faq-list{display: block;}
+    /* .esg2 .sec3 .faq-list4 .list_sel .faq-content.mobile .faq-list.on{display: block;}  */
+    /* .faq-list li.content-visible .faq-content{display:block !important;} */
+    
 
     /* 2. Governance */
     .gov4_1 .simg_info ul li, .gov4_3 ul li dl dd, .gov4_3 ul li p, .gov4_1 .p_btn_m, .gov5 .tit_box dd .text{font-size: 12px;}

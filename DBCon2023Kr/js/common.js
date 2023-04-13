@@ -156,18 +156,6 @@ $(document).ready(function () {
             $(currentClick).addClass('on');
         });
     });
-    // 테스트
-    // $('.category_nav.inpage ul li a').each(function () {
-    //     $(this).on("click", function (e) {
-    //         e.preventDefault();
-    //         var currentClick = $(this).attr('href');
-    //         $(this).addClass('on');
-    //         $(this).siblings().removeClass('on')
-    //         $(this).parent().parent().find('.sub_tab_content > div').removeClass('on');
-    //         $(currentClick).addClass('on');
-    //     });
-    // });
-    
     
     //탑버튼
     $(window).scroll(function(){
