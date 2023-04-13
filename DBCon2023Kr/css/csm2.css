@@ -940,3 +940,86 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .gov4_4 .simg_report .btn_box{width: 100%;}
     .gov4_4 .simg_report .btn_box button{width: 48% !important;}
 }
+
+
+
+/* .confirmPostBtn{
+    display: block;
+    position: absolute;
+}
+.dropdown {vertical-align: middle}
+.dropdown .dropbtn{
+    width: 44px;
+    height: 25px;
+    border: 2px solid transparent;
+    position: relative;
+    left: 55px;
+    display: block
+}
+.dropdown-content{
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.show{
+    display: block;
+} */
+
+
+.cont-select {
+    position: relative;
+}
+
+.btn-select {
+    width: 100%;
+    padding: 13px 30px 13px 14px;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    /* background: url("images/icon-Triangle-down.png") center right 14px no-repeat; */
+    /* 말줄임 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.btn-select:hover,
+.btn-select:focus {
+    border: 1px solid #9B51E0;
+    outline: 3px solid #F8E4FF;
+}
+
+.list-member {
+    display: none;
+    position: absolute;
+    width: 100%;
+    /* top: 0; */
+    left: 0;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.list-member.on{display: block;}
+.btn-select.on {
+    /* background: url("images/icon-Triangle-up.png") center right 14px no-repeat; */
+}
