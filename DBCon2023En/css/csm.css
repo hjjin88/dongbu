@@ -1,4 +1,4 @@
-/* Áö¼Ó°¡´É°æ¿µ new style */
+/* ï¿½ï¿½ï¿½Ó°ï¿½ï¿½É°æ¿µ new style */
 .w118{max-width:118px;}
 .w124{max-width:124px;}
 .w188{max-width:188px;}
@@ -22,7 +22,7 @@ img.mobile{display:none;}
 .sub_tit4.new .sub_nav ul li{width:calc(100%/8);}
 .sub_tit4.new .sub_nav ul li a{line-height:1.2;font-size:1.6rem;padding:10px 0;box-sizing:border-box;}
 
-/* ¾ÈÀüº¸°Ç°æ¿µ & Ç°Áú°æ¿µ & È¯°æ°æ¿µ */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°æ¿µ & Ç°ï¿½ï¿½ï¿½æ¿µ & È¯ï¿½ï¿½æ¿µ */
 .sust_safety .sub_tab{display:flex;flex-wrap:wrap;}
 .sust_safety .sub_tab a{width:auto;flex:1 1 0;margin:0;transition:none;padding:17px 5px;}
 .sust_safety .sub_tab a.on{padding:16px 5px;}
@@ -152,7 +152,7 @@ img.mobile{display:none;}
 .sust_list dl dd .table_layer table tr th + th{border-left:solid 1px #ddd;}
 .sust_list dl dd .table_layer tbody tr:first-child td:first-child{border-left:0;}
 
-/* À±¸®°æ¿µ */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½æ¿µ */
 .sust_subcontract{margin-bottom:100px;}
 .sust_subcontract dl:nth-of-type(1) dt{margin:80px 0 30px;}
 .sust_subcontract dl:nth-of-type(2) dt{margin:80px 0 50px;}
@@ -371,18 +371,18 @@ img.mobile{display:none;}
     .sust_step.hr .direction > div .dot_list li:before{top:7px;}
 }
 
-/* ESG°æ¿µ_¸®´º¾ó */
+/* ESGï¿½æ¿µ_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 .sub_content_esg{max-width:100% !important;}
 .sub_content_esg .sub_tab {max-width:1170px;}
 .esg_wrap{max-width:1170px;margin:0 auto;}
 
-/* 05-27 ¼öÁ¤ */
+/* 05-27 ï¿½ï¿½ï¿½ï¿½ */
 .esg_policy .esg_vision{padding:30px 0 150px;background:url('../img/sustainability/vision_bg.jpg') no-repeat center bottom;background-size:cover;text-align:center;} 
 .esg_policy .esg_vision h4{font-size:6rem;color:#00a88e;font-weight:700;}
 .esg_policy .esg_vision h4:after{content:'';display:block;width:100px;margin:20px auto;border-bottom:1px solid #222;}
 .esg_policy .esg_vision dl{padding:0 10px;}
 .esg_policy .esg_vision dl dt{margin-bottom:20px;font-size:4.5rem;color:#222;font-weight:700;letter-spacing:-1.04px;}
- /* 05-25 ¼öÁ¤ */
+ /* 05-25 ï¿½ï¿½ï¿½ï¿½ */
 .esg_policy .esg_vision dl dd{font-size:2.4rem;color:#777;font-weight:700;letter-spacing:-1.02px;word-break:keep-all;}
 .esg_policy .esg_vision dl dd strong{color:#19b29b;}
 .esg_policy .esg_list dl{padding:80px 0;display:flex;text-align:left;border-bottom:1px solid #ddd;}
@@ -393,9 +393,10 @@ img.mobile{display:none;}
 .esg_policy .esg_list dl dd span{display:block;font-size:3.4rem;text-align:center;word-break:keep-all;}
 .esg_policy .esg_list dl dd span em{position:relative;top:-5px;margin:0 5px;color:#19b29b;font-weight:700;}
 .esg_policy .esg_list dl dd p{text-align:center;font-size:3.4rem;letter-spacing:-1.02px;word-break:keep-all;}
-/* 05-27 ¼öÁ¤ */
+/* 05-27 ï¿½ï¿½ï¿½ï¿½ */
 .esg_policy .esg_list dl dd p span{display:inline-block;padding:5px 25px 0;background:url('../img/sustainability/bg_quot.png') no-repeat left 5px top 10px, url('../img/sustainability/bg_quot.png') no-repeat right 5px top 10px;}
-.esg_policy .esg_list dl dd p span+span{display:block;padding:0 25px;background:none;}
+.esg_policy .esg_list dl dd p span+span{display:block;background:none;}
+.esg_policy .esg_list dl dd p br{display:none;}
 .esg_policy .esg_list dl dd p span br{display:none;}
 .esg_policy .esg_list dl dd .img_box{margin-top:60px;}
 .esg_policy .esg_list dl dd .img_box img{display:block;max-width:100%;margin:0 auto;}
@@ -441,7 +442,7 @@ img.mobile{display:none;}
 	.esg_system .esg_box .dot_list li br {display:none;}
 }
 @media all and (max-width: 768px) {
-    /* 05-25 ¼öÁ¤ */
+    /* 05-25 ï¿½ï¿½ï¿½ï¿½ */
 	.esg_policy .esg_vision {background-size:contain;padding:0 0 12%;}
 	.esg_policy .esg_vision h4{font-size:4rem;}
 	.esg_policy .esg_vision dl dt{font-size:3.2rem;}

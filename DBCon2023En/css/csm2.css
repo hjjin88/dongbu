@@ -15,6 +15,7 @@ br.mo{display:none;}
 .rt-bd{border-right: 1px solid #ddd !important;}
 .ft-we400{font-weight: 400;}
 .info.gray{color: #555;}
+span.gr{color: #00a88e;margin: 0 10px;}
 /* 한자 표기 */
 i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 
@@ -218,6 +219,11 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .certi_box dl dt::before{content:'';display:block;width:25px;height:2px;background:#19b29b;position:absolute;left:0;top:0;}
 
 /* 1. ESG 경영 */
+.esg_policy .esg_vision dl dt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 .esg .more {position:relative;padding-right:24px;margin:20px auto 0;border-bottom:1px solid;color:#222222;font-weight: 700;font-size: 1.7rem;line-height:130%;text-align: left;}
 .esg .more::before {content:'';position:absolute;top:5px;right:0;width:18px;height:12px;background:url('../img/sustainability/new02/arrow_down.png') no-repeat center;}
 .esg .more[aria-expanded="true"]::before{top:4px;transform:rotate(180deg);}
@@ -707,6 +713,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .info_img .type_2_line li + li, .info_img .type_3_line li + li,
     .info_img .type_2_line li:nth-of-type(n+3), .info_img .type_3_line li:nth-of-type(n+4){margin-top:20px;}
     .modal_wrap .modal-content .pop_btn .p_btn{width: 133px!important;height: 50px;}
+    .quote{background-position: left 195px top 7px, right 195px top 7px;}
 
     /* tab menu */
     .sust_safety.new .sub_tab a{padding:12px 0;width: 50%;}
@@ -888,9 +895,12 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .soc5 .sec2 .goal ul li{font-size: 1.5rem;}
     .step_list.ty2{flex-direction: column;}
     .step_list.ty2 > div{width: calc(100%/1);}
+    /* span.gr{margin: 0;} */
+    .esg_policy .esg_vision dl dt {
+        font-size: 2.2rem;
+    }
 }
 @media all and (max-width: 374px) {
     .gov4_4 .simg_report .btn_box{width: 100%;}
     .gov4_4 .simg_report .btn_box button{width: 48% !important;}
-
 }
