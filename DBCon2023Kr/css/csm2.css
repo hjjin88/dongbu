@@ -406,7 +406,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc1 .sec4 .list_desc dd{font-size:12px;}
 .soc1 .sec4 .list_desc .list_dot li::before{top:8px;}
 .soc1 .sec5.full{width: 100vw;}
-.soc1 .sec5 .img_box img{box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.059);}
+.soc1 .sec5 .img_box img, .env1 .sec5 .img_box img{box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.059);}
 .soc1 .sec6 .ct_tit2{margin-bottom:85px;}
 .soc1 .sec7 .tit_box dd{padding-top:0;}
 .soc1 .sec7 .tit_box dd:before{display:none;}
