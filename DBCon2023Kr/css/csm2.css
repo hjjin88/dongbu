@@ -16,6 +16,9 @@ br.mo{display:none;}
 .ft-we400{font-weight: 400;}
 .info.gray{color: #555;}
 span.gr{color: #00a88e;margin: 0 10px;}
+img.pc2{display: block;margin: 0 auto;}
+img.mo{display: none;}
+.mt0{margin-top: 0;}
 /* 한자 표기 */
 i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 
@@ -495,7 +498,6 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc6 .full .bd_top{max-width: 1170px;margin: 0 auto;border-top: 1px solid #ddd;padding-top: 46px;}
 .soc6 .sec1 .tit_box dd .text{margin: 50px auto;}
 .soc6 .sec2 h4.sub_tit span{margin-top: 36px;}
-.soc6 .sec2 .hire_info{padding: 80px 0;}
 .soc6 .sec2 .hire_info img{margin-top: 64px;}
 .soc6 .sec2 .img_box{margin-top: 80px;}
 .soc6 .sec2{padding-bottom: 0 !important; border: 0 !important;}
@@ -702,6 +704,8 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .soc6 .sec3 .info_img{padding-top: 40px;}
 }
 @media all and (max-width: 768px) {
+    img.pc2{display: none;}
+    img.mo{display: block;margin: 0 auto;}
     .img_list.col04{column-gap:15px;}
     .img_list.col05{flex-wrap:wrap;}
     .img_list li{width:100%;}
@@ -883,7 +887,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .soc6 .sec2 .sust_step h4{padding-bottom: 40px !important;}
     .soc6 .sec2 .hire_info{padding: 40px 0;}
     .soc6 .sec2 .hire_info img{margin-top:40px;}
-    .soc6 .sec2 div.full{padding: 35px 15px 40px;}
+    .soc6 .sec2 div.full{width: 100vw;padding: 35px 15px 40px;}
     .soc6 .sec2 h4.sub_tit span{margin-top:25px;}
     .soc6 .sec2 .img_box{margin-top: 40px;}
     .soc6 .sec3 .con .scroll_wrap:last-child{margin-top: 40px;}
