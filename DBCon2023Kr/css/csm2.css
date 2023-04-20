@@ -256,7 +256,6 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .gov .gov3 .indicators_graph{display: inline-block;word-break: keep-all;}
 /* 기확 확인중 */
 .gov3 .indicators_graph ul{margin: 15px;}
-.gov3 .indicators_graph.test ul{margin: 0 15px;}
 .gov3 .ct_tit2{margin-bottom: 80px;}
 .gov3 .faq-trigger::after, .gov3 .faq-trigger::before{top: 103px;background: #bbb;}
 .gov3 .sust_list dl{border:0;padding-bottom:64px;}
