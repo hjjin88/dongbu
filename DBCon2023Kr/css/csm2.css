@@ -466,7 +466,9 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc2 .sec8 .flex li:nth-child(2) dt{background-image:url(../img/ico/tog_ico4.png);}
 .soc2 .sec8 .flex li:nth-child(3) dt{background-image:url(../img/ico/tog_ico5.png);}
 .soc2 .sec8 .flex li:nth-child(4) dt{background-image:url(../img/ico/tog_ico6.png);}
-.soc3 .sec1 .tit_box dd img{display:block;margin:80px auto 0;}
+/* .soc3 .sec1 .tit_box dd img{display:block;margin:80px auto 0;} */
+.soc3 .sec1{padding-bottom:0 !important;}
+.soc3 .sec1 .text{margin-bottom:80px;}
 .soc3 .sec2 .tit_box dd{padding-top: 0;}
 .soc3 .sec2 .tit_box dd::before{display:none;}
 .soc3 .sec2 .info_img{padding-top:80px;margin-top:80px;border-top:1px solid #ddd;}
@@ -872,6 +874,8 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .soc2 .sec5 .faq-list4 li.content-visible:last-child .faq-content{border-bottom: 1px solid #ddd;}
     .soc2 .sec8 .flex{flex-wrap:wrap; gap: 20px 15px;}
     .soc2 .sec8 .flex li{width: calc(50% - 11px);min-height: 248px;padding: 26px 0;}
+    .soc3 .sec1{padding-bottom:25px !important;}
+    .soc3 .sec1 .text{margin-bottom:40px;}
     .soc3 .sec2 .info_img ul li span{color: #555;}
     .soc5 .sec1 .ct_tit2{margin-bottom: 40px;}
     .soc5 .sec2 .goal{width: 100%;}
