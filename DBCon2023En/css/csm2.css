@@ -714,7 +714,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .info_img .type_2_line li:nth-of-type(n+3), .info_img .type_3_line li:nth-of-type(n+4){margin-top:20px;}
     .modal_wrap .modal-content .pop_btn .p_btn{width: 133px!important;height: 50px;}
     .quote{background-position: left 195px top 7px, right 195px top 7px;}
-
+    
     /* tab menu */
     .sust_safety.new .sub_tab a{padding:12px 0;width: 50%;}
     .sust_safety.new .sub_tab a.on{padding:12px 0;}
@@ -757,6 +757,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .certi_box dl dt{padding: 20px 0 18px;}
     
     /* 1. ESG 경영 */
+    .esg_policy .esg_list dl dd p{font-weight: 700;}
     .esg1 .sec1 .esg_list dl dd p br:first-child, .esg1 .sec2 .board_list td:first-child br.mo{display: block;}
     .esg1 .esg_list dl:last-child{padding-top:50px;}
     .esg1 .sec2 {border-bottom:0 !important;}
