@@ -49,6 +49,11 @@ select,select:focus{
     src:url(../fonts/NanumSquareB.eot?#iefix) format("embedded-opentype"),url(../fonts/NanumSquareB.woff) format("woff"),url(../fonts/NanumSquareB.ttf) format("truetype");
     src:local("?"),url(../fonts/NanumSquareB.woff) format("woff")
 }
+@font-face{
+    font-family:NanumSquareOTF;
+    src:url(../fonts/NanumSquareOTF_acL.otf);
+}
+
 body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,td,textarea,th,ul{
     margin:0;
     padding:0;
