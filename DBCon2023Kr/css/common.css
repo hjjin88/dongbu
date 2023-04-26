@@ -63,13 +63,13 @@ h1,h2,h3,h4,h5,h6{
 html{
     -webkit-text-size-adjust:none; 
     overflow-y:scroll;
-    font-size:62.5%
+    font-size:62.5%;
 }
 body,html{
-    height:100%
+    height:100%;
 }
 body{
-    font-size:1.7rem
+    font-size:1.7rem;
 }
 .txt_cn,.word_c,input[type=password]{
     font-family:'맑은 고딕'
@@ -77,6 +77,10 @@ body{
 .line_btn,select,textarea,th,tr{
     font-size:1.5rem
 }
+/* 추가
+td{
+    font-size:1.5rem
+} */
 fieldset,img{
     border:0;
     vertical-align:top
@@ -592,29 +596,30 @@ input.upload_text{
 .thumbnail .landscape{
     width:auto!important;
     max-width:none!important;
-    height:100%!important
+    height:100%!important;
 }
 .thumbnail .portrait{
     width:100%!important;
-    height:auto!important
+    height:auto !important;
 }
 .scroll_wrap{
-    overflow-x:auto
+    overflow-x:auto;
 }
 .scroll_wrap>table{
     min-width:1000px
 }
 .scroll_wrap::-webkit-scrollbar{
-    width:2px
+    width:2px;
+    height:3px;
 }
 .scroll_wrap::-webkit-scrollbar-track{
-    background:#eee
+    background:#eee !important;
 }
 .scroll_wrap::-webkit-scrollbar-thumb{
-    background:#ccc
+    background:#ccc !important;
 }
 .scroll_wrap::-webkit-scrollbar-thumb:window-inactive{
-    background:#ccc
+    background:#ccc !important;
 }
 .main_popup{
     margin:0 auto;

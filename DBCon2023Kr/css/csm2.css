@@ -98,6 +98,11 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .txt_info.top {margin-bottom:15px;text-align:right;}
 .txt_info + .txt_info{margin-top:12px;}
 
+[class^="list-dot"]{position: relative;}
+[class^="list-dot"] li{padding-left: 9px;position: relative;letter-spacing: -1.02px;}
+[class^="list-dot"] li::before{content: '·';position: absolute;top: 0;left: 0;}
+[class^="list-dot"][class*="-02"] li::before{content: '-';}
+
 /* double table  */
 .bdr0{border-right: none !important;}
 .absorp_top{padding-left: 0 !important;}
@@ -220,8 +225,6 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .esg2 .sec3 .faq-list4 li:nth-child(2) .board_list tr td:nth-child(2),
 .esg2 .sec3 .faq-list4 li:nth-child(2) .board_list tr td:nth-child(3){padding:20px 10px;}
 .esg2 .sec3 .faq-list4 li.content-visible .faq-content.mobile{display: none !important;}
-.esg2 .sec3 .board_list td ul.list_dot li::before{width: 1px;height: 1px;border-radius: 0;}
-.esg2 .sec3 .list_dot li::before{top: 7px;} 
 .esg3 .sec1 .img_box{margin:80px 0;}
 .esg3 .sec1 .board_list td{padding:5px 20px;}
 .esg3 .sec1 thead tr th:first-child, .esg3 .sec1 tbody tr td:first-child{width: 300px;}
@@ -275,8 +278,8 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .gov4_3 ul{display: flex;gap: 24px;}
 .gov4_3 ul li h4{margin: 27px 0 30px;font-size: 2rem;font-weight: 700;}
 .gov4_3 ul li dl dt{margin-bottom: 20px;font-weight: 700;}
-.gov4_3 ul li p{margin-bottom: 0;}
-.gov4_3 ul li p + p{margin-top: 41px;}
+.gov4_3 ul li .list-dot-02{margin-bottom: 0;color: #555;}
+.gov4_3 ul li .list-dot-02 + .list-dot-02{margin-top: 41px;}
 .gov4_3 article{padding: 0;border: 0;}
 .gov4_4 section{background-image:unset; padding: 0;}
 .gov4_4 .simg_report{text-align: left;}
@@ -548,11 +551,9 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .esg2 .sec3 .ui_tab .tab_tit.active::after{transform: translateY(-50%) rotateX(180deg);}
     .esg2 .sec3 .ui_tab .tab_menu {display: none; position: absolute; left: 0; top: 40px; width: 100%; border-top: 2px solid #333; background: #fff; z-index: 1;}
     .esg2 .sec3 .ui_tab .tab_menu.open {display: block;}
-    .esg2 .sec3 .ui_tab .tab_menu li {display: flex; align-items: center; justify-content: center; padding: 21px 0 22px; border-bottom: 1px solid #ddd; box-sizing: border-box; background: #f8f8f8; color: #555; font-size: 1.5rem; font-weight: 700; line-height: 100%;}
+    .esg2 .sec3 .ui_tab .tab_menu li {display: flex; align-items: center; justify-content: center; padding: 15px 0; border-bottom: 1px solid #ddd; box-sizing: border-box; background: #f8f8f8; color: #555; font-size: 1.5rem; font-weight: 700; line-height: 100%;}
     .esg2 .sec3 .ui_tab .board_list td:first-child{font-weight: 700;}
-    .esg2 .sec3 .ui_tab tbody tr:first-child{height: 101px;}
-    .esg2 .sec3 .ui_tab tbody tr:nth-child(2){height: 191px;}
-    .esg2 .sec3 .ui_tab tbody tr:last-child{height: 220px;}
+    .esg2 .sec3 .faq-content.mobile .board_list th {padding: 15px 0;}
     .esg3 .sec1 .img_box{margin:40px 0 60px;}
 
     /* 2. Governance */
@@ -770,7 +771,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .gov4_2 .simg_team p:nth-of-type(1)::after{margin: 40px auto 40px;}
     .gov4_3 ul{flex-direction: column;gap: 60px;}
     .gov4_3 ul li h4{margin: 20px 0;}
-    .gov4_3 ul li p + p{margin-top: 20px;}
+    .gov4_3 ul li .list-dot-02 + .list-dot-02{margin-top: 20px;}
     .gov4_4 .simg_report .btn_box{margin: 15px auto 0;}
     .gov4_4 .simg_report .p_btn{width: 167px!important;height: 50px;}
     .gov4_5.category_nav{margin: 0 0 40px;}

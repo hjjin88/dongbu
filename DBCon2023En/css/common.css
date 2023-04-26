@@ -49,6 +49,7 @@ select,select:focus{
     src:url(../fonts/NanumSquareB.eot?#iefix) format("embedded-opentype"),url(../fonts/NanumSquareB.woff) format("woff"),url(../fonts/NanumSquareB.ttf) format("truetype");
     src:local("?"),url(../fonts/NanumSquareB.woff) format("woff")
 }
+
 body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,td,textarea,th,ul{
     margin:0;
     padding:0;
@@ -60,14 +61,15 @@ h1,h2,h3,h4,h5,h6{
     font-weight:300
 }
 html{
+    -webkit-text-size-adjust:none; 
     overflow-y:scroll;
-    font-size:62.5%
+    font-size:62.5%;
 }
 body,html{
-    height:100%
+    height:100%;
 }
 body{
-    font-size:1.7rem
+    font-size:1.7rem;
 }
 .txt_cn,.word_c,input[type=password]{
     font-family:'맑은 고딕'
@@ -75,6 +77,10 @@ body{
 .line_btn,select,textarea,th,tr{
     font-size:1.5rem
 }
+/* 추가
+td{
+    font-size:1.5rem
+} */
 fieldset,img{
     border:0;
     vertical-align:top
@@ -590,29 +596,30 @@ input.upload_text{
 .thumbnail .landscape{
     width:auto!important;
     max-width:none!important;
-    height:100%!important
+    height:100%!important;
 }
 .thumbnail .portrait{
     width:100%!important;
-    height:auto!important
+    height:auto !important;
 }
 .scroll_wrap{
-    overflow-x:auto
+    overflow-x:auto;
 }
 .scroll_wrap>table{
     min-width:1000px
 }
 .scroll_wrap::-webkit-scrollbar{
-    width:2px
+    width:2px;
+    height:3px;
 }
 .scroll_wrap::-webkit-scrollbar-track{
-    background:#eee
+    background:#eee !important;
 }
 .scroll_wrap::-webkit-scrollbar-thumb{
-    background:#ccc
+    background:#ccc !important;
 }
 .scroll_wrap::-webkit-scrollbar-thumb:window-inactive{
-    background:#ccc
+    background:#ccc !important;
 }
 .main_popup{
     margin:0 auto;
@@ -3858,19 +3865,18 @@ input.upload_text{
     display:none;
     height:280px;
 }
-/* 2022-05-27 수정 */
+/* 2022-05-20 수정 */
 .header .nav_box li .twoD a{
     font-size:1.5rem;
     color:#444;
     display:block;
     width:100%;
-    padding:8px 0;
-    line-height:1.4;
+    padding:5px 0
 }
 .header .nav_box li .twoD a:first-child{
     padding-top:10px
 }
-/* 2022-05-27 수정 */
+/* 2022-05-20 수정 */
 .header .nav_box li .twoD a:hover{
     color:#00a086
 }
@@ -5424,7 +5430,7 @@ input.upload_text{
     display:none
 }
 .brand_wrap dl.symbol::before{
-    content:'심벌은 동부그룹을 대표하는 시각적 상징으로서 동부그룹의';
+    content:'심벌은 동부건설을 대표하는 시각적 상징으로서 동부건설의';
     display:block
 }
 .go_article a::after,.people_wrap .peo_top .inner p:after,.people_wrap .peo_top .inner p:before,.recruit_wrap a::after{
@@ -6273,7 +6279,7 @@ input.upload_text{
     color:#222
 }
 .category_nav.type2.col_5 a{
-    width:20%
+    width:50%
 }
 .category_nav.type2.col_6 a{
     width:16.7%
