@@ -151,12 +151,11 @@ $(document).ready(function () {
             e.preventDefault();
             var currentClick = $(this).attr('href');
             $(this).addClass('on');
-            $(this).siblings().removeClass('on')
+            $(this).siblings().removeClass('on');
             $(this).parent().parent().find('.sub_tab_content > div').removeClass('on');
             $(currentClick).addClass('on');
         });
     });
-    
     
     //탑버튼
     $(window).scroll(function(){
@@ -251,9 +250,9 @@ $(document).ready(function () {
         $('#faqSelect').change(function(){
             var selectItem = $('#faqSelect option:selected').val();
             var selectTarget = $("#"+selectItem);
-            $('.sust_faq .btn-search').on('click',function(){
-                $('.sust_faq .faq-list li').removeClass('content-visible')
-                $('.sust_faq .faq-content').hide();
+            $('.btn-search').on('click',function(){
+                $('.faq-list li').removeClass('content-visible')
+                $('.faq-content').hide();
                 selectTarget.siblings().removeClass('on');
                 selectTarget.addClass('on');
             });
@@ -368,7 +367,6 @@ $(function(){
         var _win = $(window).width();
         
         if (_win >= 1170 ) {
-            console.log('adsfasdf')
             var _between = _win - 1170;
             $('.full', _wrap).css({'margin-left': - _between/2});
         } else {
