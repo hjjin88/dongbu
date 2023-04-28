@@ -69,7 +69,7 @@
     position: absolute;
     top:42%;
     left: -10%;
-    background: no-repeat center center;
+    background: url('assets/owl-prev-bg.png') no-repeat center center;
     width: 49px;
     height: 70px;
     text-indent: -9999px;
@@ -78,7 +78,7 @@
     position: absolute;
     top:42%;
     right: -10%;
-    background: no-repeat center center;
+    background: url('assets/owl-next-bg.png') no-repeat center center;
     width: 49px;
     height: 70px;
     text-indent: -9999px;
