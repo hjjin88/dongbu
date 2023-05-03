@@ -466,7 +466,7 @@ img.mobile{display:none;}
 	.esg_policy .esg_vision {background-size:contain;padding:0 0 12%;}
 	.esg_policy .esg_vision h4{font-size:4rem;}
 	.esg_policy .esg_vision dl dt{font-size:2.5rem; font-weight:600;}
-	.esg_policy .esg_vision dl dd{font-size:2rem; letter-spacing:0;}
+	.esg_policy .esg_vision dl dd{font-size:2rem; letter-spacing:0; line-height:1.2;}
 	.esg_policy .esg_list dl dd p{font-size:2.4rem;}
 	.esg_policy .esg_list dl dd p span{padding:5px 20px 0;font-size:2.4rem;background-size:3%;background-position:left top 7px, right top 7px;}
 	.esg_policy .esg_list dl:nth-child(1) dd p span{background-size:5%}
