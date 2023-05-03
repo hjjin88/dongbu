@@ -403,8 +403,8 @@ img.mobile{display:none;}
 .esg_policy .esg_vision h4:after{content:'';display:block;width:100px;margin:20px auto;border-bottom:1px solid #222;}
 .esg_policy .esg_vision dl{padding:0 10px;}
 /* 05-25 수정 */
-.esg_policy .esg_vision dl dt{margin-bottom:20px;font-size:5.5rem;color:#222;font-weight:700;letter-spacing:-2.04px;}
-.esg_policy .esg_vision dl dd{font-size:2.4rem;color:#777;font-weight:700;letter-spacing:-2.04px;word-break:keep-all;}
+.esg_policy .esg_vision dl dt{margin-bottom:20px;font-size:5.5rem;color:#222;font-weight:700;letter-spacing:-1px;}
+.esg_policy .esg_vision dl dd{font-size:2.4rem;color:#777;font-weight:700;letter-spacing:-1px;word-break:keep-all;}
 .esg_policy .esg_vision dl dd strong{color:#19b29b;}
 .esg_policy .esg_list dl{padding:80px 0;display:flex;text-align:left;border-bottom:1px solid #ddd;}
 .esg_policy .esg_list dl:last-child{padding:80px 0 0 0;border-bottom:0;}
@@ -413,7 +413,7 @@ img.mobile{display:none;}
 .esg_policy .esg_list dl:nth-child(2) dd:before{display:none;}
 .esg_policy .esg_list dl dd span{display:block;font-size:3.4rem;text-align:center;word-break:keep-all;}
 .esg_policy .esg_list dl dd span em{position:relative;top:-5px;margin:0 5px;color:#19b29b;font-weight:700;}
-.esg_policy .esg_list dl dd p{text-align:center;font-size:3.4rem;letter-spacing:-2.04px;word-break:keep-all;}
+.esg_policy .esg_list dl dd p{text-align:center;font-size:3rem;letter-spacing:-1px;word-break:keep-all;}
 /* 05-27 수정 */
 .esg_policy .esg_list dl dd p span{display:inline-block;padding:5px 25px 0;background:url('../img/sustainability/bg_quot.png') no-repeat left 5px top 10px, url('../img/sustainability/bg_quot.png') no-repeat right 5px top 10px;}
 .esg_policy .esg_list dl dd p span+span{display:block;background:none;}
@@ -465,8 +465,8 @@ img.mobile{display:none;}
 	/* 05-25 수정 */
 	.esg_policy .esg_vision {background-size:contain;padding:0 0 12%;}
 	.esg_policy .esg_vision h4{font-size:4rem;}
-	.esg_policy .esg_vision dl dt{font-size:3.2rem;}
-	.esg_policy .esg_vision dl dd{font-size:2rem;}
+	.esg_policy .esg_vision dl dt{font-size:2.5rem; font-weight:600;}
+	.esg_policy .esg_vision dl dd{font-size:2rem; letter-spacing:0;}
 	.esg_policy .esg_list dl dd p{font-size:2.4rem;}
 	.esg_policy .esg_list dl dd p span{padding:5px 20px 0;font-size:2.4rem;background-size:3%;background-position:left top 7px, right top 7px;}
 	.esg_policy .esg_list dl:nth-child(1) dd p span{background-size:5%}
