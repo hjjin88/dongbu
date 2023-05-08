@@ -124,7 +124,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .faq-list3 li a.faq-trigger>div p{padding-right:5.5rem;}
 .faq-list3 li a.faq-trigger::after, .faq-list3 li a.faq-trigger::before{background:#bbb;}
 .faq-list3 li.content-visible a.faq-trigger{color:#000;}
-.faq-list3 .faq-content{padding:40px 20px;background:#fbfbfb;font-size:1.6rem;}
+.faq-list3 .faq-content{padding:40px 20px;background:#fbfbfb;font-size:1.6rem;}12px
 .faq-list3 .faq-content>div{display:flex;gap:4px;}
 .faq-list3 .faq-content>div span{flex-shrink:0;}
 .faq-list4 li a.faq-trigger{padding:80px 0;font-weight:700;}
@@ -148,7 +148,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .sust_safety.new div[class^="sec"]:last-of-type{padding:80px 0 0;border-bottom:none;}
 
 .list_dot li{padding-left:9px;position:relative;letter-spacing:-1.02px;}
-.list_dot li::before{content:'';display:block;width:3px;height:3px;border-radius:3px;background:#222;position:absolute;left:0;top:10px;}
+.list_dot li::before{content:'';display:block;width:3px;height:3px;border-radius:3px;background:#222;position:absolute;left:0;top:12px;}
 .list_dot.gray li::before{background:#ccc;}
 .list_dot.gray2 li::before{background:#555;}
 .list_dot.right li{padding-left:0;padding-right:9px;}
@@ -514,7 +514,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .sust_safety.new div.full{padding:60px 15px 40px;}
 
     .ct_tit2>p{margin-top:30px;}
-    .list_dot li::before{top:8px;}
+    .list_dot li::before{top:10px;}
     .board_tit{margin-bottom:40px;}
     .faq-list3{border-top:none;}
     .faq-list3 li+li{margin-top:40px;}
