@@ -465,7 +465,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc5 .sec1 .list_dot dt{font-weight: 700;}
 .soc5 .sec2 .img_box{margin: 80px auto 40px;}
 .soc5 .sec2 .goal{width: 80%; text-align:left;}
-.soc5 .sec2 .goal ul{padding-left:40px;}
+.soc5 .sec2 .goal ul{padding-left:50px; padding-right:50px;}
 .soc5 .sec2 .goal ul li{font-size: 2.2rem;letter-spacing: -.6px;line-height: 1.6;padding-left:10px; text-indent:-10px;}
 .soc5 .sust_list dd>div{margin-top: 80px;padding-top: 80px;border-top: 1px solid #ddd;}
 .soc5 .sust_list dd>div:first-child{margin-top: 0;padding-top: 0;border: 0;}
@@ -486,8 +486,9 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc6 .sec2 .img_box{margin-top: 80px;}
 .soc6 .sec2{padding-bottom: 0 !important; border: 0 !important;}
 .soc6 .sec3 .con .scroll_wrap:last-child{margin-top: 80px;}
-.soc6 .sec2 .process{display: flex;justify-content: space-between;width: 960px;margin: 16px auto 0;padding-left: 2.3%;font-size: 1.5rem;letter-spacing: -0.9px;}
-
+.soc6 .sec2 .process{display: flex;justify-content: space-between;width: 960px;margin: 16px auto 0;padding-left: 2.3%;}
+.soc6 .sec2 .process li dl dt{display:none;}
+.soc6 .sec2 .process li dl dd{font-size: 1.6rem;letter-spacing: -0.9px;}
 .step_list.ty2{gap: 0 63px;}
 .step_list.ty2 dl dt{margin-bottom: 12px;font-weight: 400;}
 .step_list.ty2 dl dd {width: 100%;margin-top: 0;padding-top: 0;font-weight: 700;}
@@ -543,7 +544,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .goal{width:100%;padding:15px;}
     .goal ul{padding:35px 0;}
     .goal ul li{font-size: 2.2rem;}
-    .soc5 .sec2 .goal ul{padding-left:30px; padding-right:30px;}
+    .soc5 .sec2 .goal ul{padding:30px 20px 30px 30px;}
 
     .certi_box{margin:40px auto 0;gap:50px;flex-direction:column;padding:0;}
     .certi_box + .certi_box{margin-top:40px;padding-top:60px;border-top:1px solid #ddd;}
@@ -682,7 +683,9 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .soc6 .full + .full {padding-top: 0 !important;}
     .soc6 .sec3 .board_tit{margin-bottom: 20px;}
     .soc6 .sec3 .info_img{padding-top: 40px;}
-    .soc6 .sec2 .process{display: none;}
+    .soc6 .sec2 .process{flex-direction:column; width:100%;}
+    .soc6 .sec2 .process li dl dt{display:block; font-size:2rem; color:#5082E6; font-weight:700; text-align:left;}
+    .soc6 .sec2 .process li dl dd{margin-bottom:3rem; text-align:left; letter-spacing:-0.5px;}
 }
 @media all and (max-width: 768px) {
     img.pc2{display: none;}
