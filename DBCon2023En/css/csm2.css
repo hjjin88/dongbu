@@ -121,6 +121,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .faq-list3 li a.faq-trigger .mo-tit{display:none;margin-bottom:40px;color:#222;font-size:2.4rem;}
 .faq-list3 li a.faq-trigger>div{display:flex;gap:6px;}
 .faq-list3 li a.faq-trigger>div span{flex-shrink:0;}
+.faq-list3 li a.faq-trigger>div p{padding-right:5.5rem;}
 .faq-list3 li a.faq-trigger::after, .faq-list3 li a.faq-trigger::before{background:#bbb;}
 .faq-list3 li.content-visible a.faq-trigger{color:#000;}
 .faq-list3 .faq-content{padding:40px 20px;background:#fbfbfb;font-size:1.6rem;}
@@ -147,7 +148,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .sust_safety.new div[class^="sec"]:last-of-type{padding:80px 0 0;border-bottom:none;}
 
 .list_dot li{padding-left:9px;position:relative;letter-spacing:-1.02px;}
-.list_dot li::before{content:'';display:block;width:3px;height:3px;border-radius:3px;background:#222;position:absolute;left:0;top:10px;}
+.list_dot li::before{content:'';display:block;width:3px;height:3px;border-radius:3px;background:#222;position:absolute;left:0;top:12px;}
 .list_dot.gray li::before{background:#ccc;}
 .list_dot.gray2 li::before{background:#555;}
 .list_dot.right li{padding-left:0;padding-right:9px;}
@@ -230,9 +231,12 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .esg3 .sec1 .board_list td{padding:5px 20px;}
 .esg3 .sec1 thead tr th:first-child, .esg3 .sec1 tbody tr td:first-child{width: 300px;}
 
+.esg2 .board_list.priority td{line-height:1.5rem; height:5.8rem; padding:0 20px;}
+
 /* 2. Governance */
 .gov1 .sec3.btn_down{margin-top:0;}
 .gov2 .sec1 .tit_box{display: block; margin-bottom: 80px;}
+.gov2 .sec1 .tit_box dt{letter-spacing:-2px; width:100%;}
 .gov2 .sec1 .tit_box dd{width: 100%;margin-top: 30px;}
 .gov2 .sec1 .faq-list{margin-top: 80px;}
 .gov2 .sec1 .faq-list li:last-child .faq-content{padding: 0;border: 0;}
@@ -260,6 +264,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .gov3_4 .faq-list3 .faq-content>div{padding: 40px 20px; background: #FBFBFB;}
 .gov3_4 .faq-list.on {display: block;}
 .gov3_4 .faq-list {display: none;}
+.gov3_4 .board-searcharea select{overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; padding-right:2.2rem;}
 .gov3_5 .txt_bar{text-align: left;}
 .gov4_1 .sust_safety article{padding: 50px 0;}
 .gov4_1 .simg_info .process .step {padding: 237.5px 0 0;}
@@ -303,9 +308,9 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .gov5 .board_list .in-table li+li{margin-top: -1px;}
 .gov5 .sec4 .box{padding-top: 80px;}
 .gov5 .sec5 .tit_box dd{padding-top: 0px;}
-.gov5 .sec5 .tit_box dd:before{display: none;}
+.gov5 .sec5 .tit_box dd .scroll_wrap.type2 > table{margin-top:20px;}
 .gov5 .simg_info ul li{margin: 20px 0 0;color: #555;font-size: 1.5rem;}
-
+.gov5 .sec3 .board_list td ul li{letter-spacing: -0.1rem;}
 /* 3. Environmental */
 .env1 .list_dot li{margin-bottom: 5px;}
 .env1 .sec1, .soc1 .sec1{padding-top:50px !important;}
@@ -509,7 +514,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .sust_safety.new div.full{padding:60px 15px 40px;}
 
     .ct_tit2>p{margin-top:30px;}
-    .list_dot li::before{top:8px;}
+    .list_dot li::before{top:10px;}
     .board_tit{margin-bottom:40px;}
     .faq-list3{border-top:none;}
     .faq-list3 li+li{margin-top:40px;}
@@ -751,11 +756,11 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     /* 2. Governance */
     .gov3_3 .txt_bar{padding: 20px 0 60px;text-align: left;}
     .gov3_3 .txt_bar::before{left: 0;transform: unset;}
-    .gov3_4 .txt_bar{margin:0 0 40px;padding: 40px 0 26px;font-weight: 700;}
+    .gov3_4 .txt_bar{margin:0 0 40px;padding: 40px 0 26px;font-weight: 700; font-size:3.4rem;}
     .gov3_4 .faq-list li a.faq-trigger{margin: 0;padding: 0;}
     .gov3_4 .txt_bar::before{bottom: 0;top: auto;}
     .gov3_4 .faq-list3 li a.faq-trigger>div{width: calc(100% - 45px);}
-    .gov3_4 .faq-list3 li a.faq-trigger>div p{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+    .gov3_4 .faq-list3 li a.faq-trigger>div p{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical; padding-right:0;}
     .gov3_4 .faq-list3 .faq-content{padding: 0;}
     .gov3_4 .faq-list3 li a.faq-trigger>div span{margin-top: -6px;font-size: 24px;line-height: 1;}
     .gov3_4 .faq-list3 .faq-content>div, .gov3_4 .faq-list3 li a.faq-trigger::after, .gov3_4 .faq-list3 li a.faq-trigger::before{top: 15px;}
