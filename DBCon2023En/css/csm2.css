@@ -323,7 +323,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .env1 .sec3 .system_list{width:100%;height:100%;position:absolute;left:0;top:0;}
 .env1 .sec3 .system_list dl{position:absolute;text-align:left;}
 .env1 .sec3 .system_list dl .tit_mo{display:none;position:relative;padding-bottom:26px;margin-bottom:20px;font-size:2.4rem;font-weight:700;text-align:left;}
-.env1 .sec3 .system_list dl.list_01{left:50%;transform:translateX(-50%); width:70%;}
+.env1 .sec3 .system_list dl.list_01{left:50%;transform:translateX(-50%); width:80%;}
 .env1 .sec3 .system_list dl.list_02{left:5.5%;bottom:0;text-align:right;}
 .env1 .sec3 .system_list dl.list_03{right:2%;bottom:2.4%;}
 .env1 .sec3 .system_list dl dt{font-weight:700;}
@@ -809,7 +809,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .env2 .sec3 .img_list li.left .txt_box{order:0;}
     .env2 .sec3 .img_list .txt_box{width:100%;padding:60px 0 40px;}
     .env3 .sec1 .img_list{border-top:1px solid #ddd;padding-top:40px;}
-    .env3 .sec1 .img_list.col02 li{padding:0 0 22px;position:relative;width:100%;}
+    .env3 .sec1 .img_list.col02 li{padding:0 0 35px;position:relative;width:100%;}
     .env3 .sec1 .img_list.col02 li p.top{margin-bottom:0;position:absolute;bottom:0;}
     .env3 .sec2 .img_list li{width:calc(50% - 15px);}
     .env3 .sec3 .img_list{margin-top:40px;}
