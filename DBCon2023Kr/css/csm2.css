@@ -376,10 +376,9 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc1 .sec4{border-bottom:none !important;}
 .soc1 .sec4 .ct_tit2{margin-bottom:80px;}
 .soc1 .sec4 .list_desc{display:none;margin-top:50px;text-align:left;}
-.soc1 .sec4 .list_desc dl+dl{margin-top:30px;}
-.soc1 .sec4 .list_desc dt{margin-bottom:11px;font-weight:700;}
-.soc1 .sec4 .list_desc dd{font-size:12px;}
+.soc1 .sec4 .list_desc dl+dl{margin-top:40px;}
 .soc1 .sec4 .list_desc .list_dot li::before{top:8px;}
+.soc1 .tit_box dt{font-size: 2.8rem;line-height: 1;}
 .soc1 .sec5.full{width: 100vw;}
 .soc1 .sec5 .img_box img, .env1 .sec5 .img_box img{box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.059);}
 .soc1 .sec6 .ct_tit2{margin-bottom:85px;}
@@ -475,6 +474,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc6 .sec2 .img_box{margin-top: 80px;}
 .soc6 .sec2{padding-bottom: 0 !important; border: 0 !important;}
 .soc6 .sec3 .con .scroll_wrap:last-child{margin-top: 80px;}
+.soc6 .sec2 .process{display: flex;justify-content: space-between;width: 960px;margin: 16px auto 0;padding-left: 2.3%;font-size: 1.5rem;letter-spacing: -0.9px;}
 
 .step_list.ty2{gap: 0 63px;}
 .step_list.ty2 dl dt{margin-bottom: 12px;font-weight: 400;}
@@ -667,6 +667,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .soc5 .sust_list .info_img .pc{display: block;}
     .soc5 .sust_list .info_img .mobile{display: none;}
     .soc6 .full + .full {padding-top: 0 !important;}
+    .soc6 .sec2 .process{display: none;}
     .soc6 .sec3 .board_tit{margin-bottom: 20px;}
     .soc6 .sec3 .info_img{padding-top: 40px;}
 }
@@ -690,8 +691,8 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .sust_safety.new .sub_tab a{padding:12px 0;width: 50%;}
     .sust_safety.new .sub_tab a.on{padding:12px 0;}
     .sust_safety.new .sub_tab.type2{display: flex;margin:0 auto 40px;}
-    .sust_safety.new .sub_tab.type2 a{flex: 0 1 50%;padding: 17px 0;border-bottom: 1px solid #ddd;}
-    .sust_safety.new .sub_tab.type2 a.on{padding: 16px 0; border: 2px solid #00a88e}
+    .sust_safety.new .sub_tab.type2 a{flex: 0 1 50%;padding: 9px 0;border-bottom: 1px solid #ddd;}
+    .sust_safety.new .sub_tab.type2 a.on{padding: 8px 0;border: 2px solid #00a88e}
     .sust_safety.new .sub_tab.type2 a.on::before{display:none;}
     .sust_safety.new .sub_tab.type2 a + a{border-bottom:1px solid #ddd;}
     .sust_safety.new .sub_tab.type2 a.on + a{border-left:1px solid #ddd;}
