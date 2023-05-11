@@ -477,10 +477,10 @@
             $this.off().on('click', function () {
                 var isExpanded = $(this).attr('aria-expanded');
                 if (isExpanded == 'false') {
-                    $this.attr('aria-expanded', true).text('접기');
+                    $this.attr('aria-expanded', true).text('folding');
                     $target.css('display','table-row');
                 } else if (isExpanded == 'true') {
-                    $this.attr('aria-expanded', false).text('더보기');
+                    $this.attr('aria-expanded', false).text('more');
                     $target.css('display', 'none');
                 }
             });
